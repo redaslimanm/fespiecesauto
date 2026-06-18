@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
 
 const DEFAULT_WEB_PORT = 5173
-const DEFAULT_API_PORT = 4000
+const DEFAULT_API_PORT = 3000
 
 function readEnvPort(envPath, key, fallback) {
   if (!existsSync(envPath)) return fallback
@@ -24,17 +24,24 @@ function readVitePort() {
 }
 
 export function detectPorts() {
-  const apiPort = readEnvPort(join(root, 'server', '.env'), 'PORT', DEFAULT_API_PORT)
+  const apiPort = readEnvPort(join(root, '.env.local'), 'PORT', DEFAULT_API_PORT)
+  const legacyApiPort = readEnvPort(join(root, 'server', '.env'), 'PORT', DEFAULT_API_PORT)
   const exampleApiPort = readEnvPort(
-    join(root, 'server', '.env.example'),
+    join(root, '.env.local.example'),
     'PORT',
     DEFAULT_API_PORT,
   )
   const webPort = readVitePort()
 
+  const resolvedApiPort = existsSync(join(root, '.env.local'))
+    ? apiPort
+    : existsSync(join(root, 'server', '.env'))
+      ? legacyApiPort
+      : exampleApiPort
+
   return {
     webPort,
-    apiPort: existsSync(join(root, 'server', '.env')) ? apiPort : exampleApiPort,
+    apiPort: resolvedApiPort,
   }
 }
 

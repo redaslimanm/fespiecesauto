@@ -10,7 +10,9 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.next
 *.local
+server/.env
 ngrok.yml
 
 # Editor directories and files
