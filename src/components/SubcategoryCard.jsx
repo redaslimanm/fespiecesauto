@@ -3,6 +3,7 @@ import WhatsAppIcon from './WhatsAppIcon'
 import FavoriteButton from './FavoriteButton'
 import SubcategoryMedia from './SubcategoryMedia'
 import { subcategoryFavorite } from '../context/FavoritesContext'
+import { subcategoryPath } from '../utils/routes'
 import { buildInquiryWhatsAppUrl } from '../utils/whatsapp'
 
 export default function SubcategoryCard({ category, sub, showFavorite = true }) {
@@ -15,7 +16,7 @@ export default function SubcategoryCard({ category, sub, showFavorite = true }) 
         />
       )}
       <Link
-        to={`/categories/${category.slug}/${sub.slug}`}
+        to={subcategoryPath(category.slug, sub.slug)}
         className="group/image relative block overflow-hidden"
       >
         <SubcategoryMedia sub={sub} category={category} />
@@ -25,7 +26,7 @@ export default function SubcategoryCard({ category, sub, showFavorite = true }) 
           {category.name}
         </span>
         <Link
-          to={`/categories/${category.slug}/${sub.slug}`}
+          to={subcategoryPath(category.slug, sub.slug)}
           className="font-display text-xl font-bold text-text transition-colors hover:text-[#e85d04]"
         >
           {sub.name}

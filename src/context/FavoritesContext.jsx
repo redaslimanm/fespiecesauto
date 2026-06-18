@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import { categoryPath, subcategoryPath } from '../utils/routes'
 
 const STORAGE_KEY = 'autopieces.favorites'
 
@@ -54,7 +55,7 @@ export function categoryFavorite(category) {
     key: `category:${category.slug}`,
     type: 'category',
     name: category.name,
-    to: `/categories/${category.slug}`,
+    to: categoryPath(category.slug),
     image: category.iconPng || `/categories/icons/${category.slug}.png`,
   }
 }
@@ -65,7 +66,7 @@ export function subcategoryFavorite(category, sub) {
     type: 'subcategory',
     name: sub.name,
     parentName: category.name,
-    to: `/categories/${category.slug}/${sub.slug}`,
+    to: subcategoryPath(category.slug, sub.slug),
     image: sub.image || category.iconPng || `/categories/icons/${category.slug}.png`,
   }
 }

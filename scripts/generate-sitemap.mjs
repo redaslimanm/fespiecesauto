@@ -8,17 +8,22 @@ const root = join(__dirname, '..')
 const siteUrl = (process.env.VITE_SITE_URL || 'https://fespiecesauto.ma').replace(/\/$/, '')
 const categories = JSON.parse(readFileSync(join(root, 'src/data/categories.json'), 'utf-8'))
 const subcategories = JSON.parse(readFileSync(join(root, 'src/data/subcategories.json'), 'utf-8'))
+const products = JSON.parse(readFileSync(join(root, 'src/data/products.json'), 'utf-8'))
 
 const staticPaths = ['/', '/categories', '/sous-categories', '/a-propos', '/recherche']
 
 const urls = [...staticPaths]
 
 for (const category of categories) {
-  urls.push(`/categories/${category.slug}`)
+  urls.push(`/categorie/${category.slug}`)
   const subs = subcategories[category.slug] || []
   for (const sub of subs) {
-    urls.push(`/categories/${category.slug}/${sub.slug}`)
+    urls.push(`/categorie/${category.slug}/${sub.slug}`)
   }
+}
+
+for (const product of products) {
+  if (product.slug) urls.push(`/produit/${product.slug}`)
 }
 
 const today = new Date().toISOString().slice(0, 10)
@@ -26,14 +31,23 @@ const today = new Date().toISOString().slice(0, 10)
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
-  .map(
-    (path) => `  <url>
+  .map((path) => {
+    const depth = path.split('/').filter(Boolean).length
+    const priority =
+      path === '/'
+        ? '1.0'
+        : path.startsWith('/produit/')
+          ? '0.7'
+          : path.startsWith('/categorie/') && depth >= 2
+            ? '0.6'
+            : '0.8'
+  return `  <url>
     <loc>${siteUrl}${path === '/' ? '' : path}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${path === '/' ? 'weekly' : 'monthly'}</changefreq>
-    <priority>${path === '/' ? '1.0' : path.startsWith('/categories/') && path.split('/').length > 3 ? '0.6' : '0.8'}</priority>
+    <priority>${priority}</priority>
   </url>`
-  )
+  })
   .join('\n')}
 </urlset>
 `
@@ -42,6 +56,7 @@ writeFileSync(join(root, 'public/sitemap.xml'), `${xml}\n`, 'utf-8')
 
 const robots = `User-agent: *
 Allow: /
+
 Disallow: /admin
 Disallow: /login
 Disallow: /signup
@@ -53,3 +68,5 @@ Sitemap: ${siteUrl}/sitemap.xml
 writeFileSync(join(root, 'public/robots.txt'), robots, 'utf-8')
 
 console.log(`Generated sitemap with ${urls.length} URLs for ${siteUrl}`)
+console.log(`  Categories: ${categories.length}`)
+console.log(`  Products: ${products.length}`)

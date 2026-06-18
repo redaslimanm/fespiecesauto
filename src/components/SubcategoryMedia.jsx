@@ -21,8 +21,11 @@ export default function SubcategoryMedia({
         <div className="flex h-full w-full items-center justify-center p-6 sm:p-8">
           <img
             src={resolveMediaUrl(sub.image)}
-            alt={sub.name}
+            alt={`${sub.name} — pièces auto Fès`}
+            width={400}
+            height={300}
             loading="lazy"
+            decoding="async"
             className="max-h-full max-w-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.02]"
           />
         </div>

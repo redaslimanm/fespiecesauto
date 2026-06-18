@@ -77,3 +77,28 @@ export function getProductCountByCategory(categorySlug, productList = products) 
 export function getTotalProductCount(productList = products) {
   return productList.length
 }
+
+export function getRelatedProducts(product, productList = products, limit = 4) {
+  if (!product) return []
+  return productList
+    .filter((p) => p.slug !== product.slug)
+    .sort((a, b) => {
+      const score = (p) =>
+        (p.subcategorySlug === product.subcategorySlug ? 2 : 0) +
+        (p.categorySlug === product.categorySlug ? 1 : 0)
+      return score(b) - score(a)
+    })
+    .slice(0, limit)
+}
+
+export function getRelatedSubcategories(category, limit = 4, currentSubSlug = null) {
+  if (!category?.subcategories?.length) return []
+  return category.subcategories
+    .filter((sub) => sub.slug !== currentSubSlug)
+    .slice(0, limit)
+    .map((sub) => ({ category, sub }))
+}
+
+export function getRelatedCategories(categoryList, currentSlug, limit = 4) {
+  return categoryList.filter((c) => c.slug !== currentSlug).slice(0, limit)
+}

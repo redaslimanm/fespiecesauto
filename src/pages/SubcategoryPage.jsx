@@ -20,6 +20,23 @@ import { fetchCategory } from '../utils/api'
 
 import { buildInquiryWhatsAppUrl } from '../utils/whatsapp'
 
+import { useCategories } from '../hooks/useCategories'
+
+import RelatedCategories from '../components/RelatedCategories'
+
+import { getRelatedCategories, getRelatedSubcategories } from '../utils/data'
+
+import {
+  buildBreadcrumbJsonLd,
+  buildCategoryJsonLd,
+  buildLocalBusinessJsonLd,
+  buildSubcategoryJsonLd,
+  categorySeoDescription,
+  mergeJsonLd,
+} from '../utils/seo'
+
+import { categoriesIndexPath, categoryPath, subcategoryPath } from '../utils/routes'
+
 
 
 export default function SubcategoryPage() {
@@ -70,6 +87,8 @@ export default function SubcategoryPage() {
 
   const subcategory = category?.subcategories.find((s) => s.slug === subcategorySlug)
 
+  const relatedSubcategories = getRelatedSubcategories(category, 4, subcategorySlug)
+
 
 
   if (loading) {
@@ -98,7 +117,7 @@ export default function SubcategoryPage() {
 
         <h1 className="section-title">Sous-catégorie introuvable</h1>
 
-        <Link to="/categories" className="btn-dark mt-8">
+        <Link to={categoriesIndexPath} className="btn-dark mt-8">
 
           Retour aux catégories
 
@@ -117,12 +136,22 @@ export default function SubcategoryPage() {
     <>
 
       <Seo
-        title={`${subcategory.name} — ${category.name}`}
+        title={subcategory.name}
+        titleTemplate="category"
         description={
           subcategory.description ||
-          `${subcategory.name} — ${category.name} à Fès. Disponibilité, prix et conseil chez Fes Pièces Auto. Contact WhatsApp.`
+          `${subcategory.name} — ${category.name} à Fès. Disponibilité, prix et conseil chez FesPiecesAuto. Contact WhatsApp.`
         }
         image={subcategory.image || category.iconPng}
+        jsonLd={mergeJsonLd([
+          buildSubcategoryJsonLd({ category, subcategory }),
+          buildBreadcrumbJsonLd([
+            { label: 'Catégories', path: categoriesIndexPath },
+            { label: category.name, path: categoryPath(category.slug) },
+            { label: subcategory.name },
+          ]),
+          buildLocalBusinessJsonLd(),
+        ])}
       />
 
       <div className="page-header">
@@ -133,9 +162,9 @@ export default function SubcategoryPage() {
 
             items={[
 
-              { label: 'Catégories', to: '/categories' },
+              { label: 'Catégories', to: categoriesIndexPath },
 
-              { label: category.name, to: `/categories/${category.slug}` },
+              { label: category.name, to: categoryPath(category.slug) },
 
               { label: subcategory.name },
 
@@ -221,6 +250,13 @@ export default function SubcategoryPage() {
 
       </div>
 
+      <div className="section-container pb-16">
+        <RelatedCategories
+          subcategories={relatedSubcategories}
+          title={`Autres sous-catégories — ${category.name}`}
+        />
+      </div>
+
     </>
 
   )
@@ -232,6 +268,8 @@ export default function SubcategoryPage() {
 export function CategoryDetailPage() {
 
   const { categorySlug } = useParams()
+
+  const { categories: allCategories } = useCategories()
 
   const [category, setCategory] = useState(null)
 
@@ -301,7 +339,7 @@ export function CategoryDetailPage() {
 
         <h1 className="section-title">Catégorie introuvable</h1>
 
-        <Link to="/categories" className="btn-dark mt-8">
+        <Link to={categoriesIndexPath} className="btn-dark mt-8">
 
           Retour aux catégories
 
@@ -315,17 +353,27 @@ export function CategoryDetailPage() {
 
 
 
+  const relatedCategories = getRelatedCategories(allCategories, categorySlug)
+
+
+
   return (
 
     <>
 
       <Seo
         title={category.name}
-        description={
-          category.description ||
-          `${category.name} — pièces auto à Fès. ${category.subcategories.length} sous-catégories chez Fes Pièces Auto.`
-        }
+        titleTemplate="category"
+        description={categorySeoDescription(category)}
         image={category.iconPng}
+        jsonLd={mergeJsonLd([
+          buildCategoryJsonLd({ category }),
+          buildBreadcrumbJsonLd([
+            { label: 'Catégories', path: categoriesIndexPath },
+            { label: category.name },
+          ]),
+          buildLocalBusinessJsonLd(),
+        ])}
       />
 
       <div className="page-header">
@@ -336,7 +384,7 @@ export function CategoryDetailPage() {
 
             items={[
 
-              { label: 'Catégories', to: '/categories' },
+              { label: 'Catégories', to: categoriesIndexPath },
 
               { label: category.name },
 
@@ -416,6 +464,13 @@ export function CategoryDetailPage() {
 
         )}
 
+      </div>
+
+      <div className="section-container pb-16">
+        <RelatedCategories
+          categories={relatedCategories}
+          title="Autres catégories de pièces auto"
+        />
       </div>
 
     </>

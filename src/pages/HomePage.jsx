@@ -25,6 +25,7 @@ import { getAllSubcategories } from '../utils/data'
 import { useInView } from '../hooks/useInView'
 
 import { useCategories } from '../hooks/useCategories'
+import { categoryPath } from '../utils/routes'
 
 
 
@@ -154,7 +155,7 @@ export default function HomePage() {
 
                   key={cat.id}
 
-                  to={`/categories/${cat.slug}`}
+                  to={categoryPath(cat.slug)}
 
                   className="group flex flex-col items-center text-center"
 

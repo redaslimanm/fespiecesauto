@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { categoryPath } from '../utils/routes'
 import CategoryIcon from './CategoryIcon'
 import FavoriteButton from './FavoriteButton'
 import { categoryFavorite } from '../context/FavoritesContext'
@@ -7,7 +8,7 @@ export default function CategoryCard({ category, variant = 'grid' }) {
   if (variant === 'counter') {
     return (
       <Link
-        to={`/categories/${category.slug}`}
+        to={categoryPath(category.slug)}
         className="group flex flex-col items-center rounded-2xl bg-surface p-8 text-center shadow-[0_2px_20px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.1)]"
       >
         <span className="font-display text-5xl font-bold text-text transition-colors group-hover:text-dark sm:text-6xl">
@@ -20,7 +21,7 @@ export default function CategoryCard({ category, variant = 'grid' }) {
 
   return (
     <Link
-      to={`/categories/${category.slug}`}
+      to={categoryPath(category.slug)}
       className="card-light group relative"
     >
       <FavoriteButton item={categoryFavorite(category)} className="absolute right-4 top-4 z-10" />

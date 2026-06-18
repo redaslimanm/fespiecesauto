@@ -3,7 +3,7 @@ import { Upload, Loader2, X } from 'lucide-react'
 import { uploadImage } from '../../utils/api'
 import { resolveMediaUrl } from '../../utils/media'
 
-export default function ImageField({ label = 'Image', value, onChange }) {
+export default function ImageField({ label = 'Image', value, onChange, onFileSelect }) {
   const inputRef = useRef(null)
   const [uploading, setUploading] = useState(false)
   const [error, setError] = useState('')
@@ -11,6 +11,14 @@ export default function ImageField({ label = 'Image', value, onChange }) {
   const handleFile = async (event) => {
     const file = event.target.files?.[0]
     if (!file) return
+
+    if (onFileSelect) {
+      onFileSelect(file)
+      onChange(URL.createObjectURL(file))
+      if (inputRef.current) inputRef.current.value = ''
+      return
+    }
+
     setUploading(true)
     setError('')
     try {
@@ -34,7 +42,10 @@ export default function ImageField({ label = 'Image', value, onChange }) {
             <img src={resolveMediaUrl(value)} alt="" className="h-full w-full object-cover" />
             <button
               type="button"
-              onClick={() => onChange('')}
+              onClick={() => {
+                onFileSelect?.(null)
+                onChange('')
+              }}
               aria-label="Retirer l'image"
               className="absolute right-0.5 top-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-black/60 text-white hover:bg-black/80"
             >
@@ -50,8 +61,11 @@ export default function ImageField({ label = 'Image', value, onChange }) {
         <div className="flex-1 space-y-2">
           <input
             type="text"
-            value={value}
-            onChange={(e) => onChange(e.target.value)}
+            value={value.startsWith('blob:') ? '' : value}
+            onChange={(e) => {
+              onFileSelect?.(null)
+              onChange(e.target.value)
+            }}
             className="w-full rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text outline-none transition-colors focus:border-[#e85d04]"
             placeholder="Coller une URL d'image…"
           />

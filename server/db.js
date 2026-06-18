@@ -73,10 +73,14 @@ export async function initDatabase() {
       name VARCHAR(255) NOT NULL,
       description TEXT,
       image TEXT,
+      image_data MEDIUMBLOB,
+      image_mime VARCHAR(127),
       PRIMARY KEY (category_slug, slug),
       FOREIGN KEY (category_slug) REFERENCES categories(slug) ON DELETE CASCADE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
   `)
+
+  await ensureSubcategoryImageColumns()
 
   await pool.query(`
     CREATE TABLE IF NOT EXISTS users (
@@ -108,6 +112,24 @@ export async function initDatabase() {
   await seedSubcategories()
   await seedProducts()
   await seedAdmin()
+}
+
+async function ensureSubcategoryImageColumns() {
+  const rows = await query(`SHOW COLUMNS FROM subcategories LIKE 'image_data'`)
+  if (rows.length) return
+  await pool.query('ALTER TABLE subcategories ADD COLUMN image_data MEDIUMBLOB NULL AFTER image')
+  await pool.query('ALTER TABLE subcategories ADD COLUMN image_mime VARCHAR(127) NULL AFTER image_data')
+}
+
+export function subcategoryImageApiPath(categorySlug, slug) {
+  return `/api/subcategories/${categorySlug}/${slug}/image`
+}
+
+function mapSubcategoryImage(row) {
+  if (row.image_mime) {
+    return subcategoryImageApiPath(row.category_slug, row.slug)
+  }
+  return row.image ?? ''
 }
 
 async function seedIfEmpty() {
@@ -261,7 +283,9 @@ export async function verifyCredentials(email, password) {
 
 export async function getCategories() {
   const categories = await query('SELECT * FROM categories ORDER BY name')
-  const subs = await query('SELECT * FROM subcategories ORDER BY name')
+  const subs = await query(
+    'SELECT slug, category_slug, name, description, image, image_mime FROM subcategories ORDER BY name'
+  )
 
   return categories.map((c) => ({
     id: c.slug,
@@ -277,7 +301,7 @@ export async function getCategories() {
         name: s.name,
         slug: s.slug,
         description: s.description ?? '',
-        image: s.image ?? '',
+        image: mapSubcategoryImage(s),
       })),
   }))
 }
@@ -336,31 +360,89 @@ export async function insertSubcategory(categorySlug, { slug, name, description 
   return { id: slug, name, slug, description, image }
 }
 
+export async function getSubcategoryImage(categorySlug, slug) {
+  const rows = await query(
+    'SELECT image_data, image_mime FROM subcategories WHERE category_slug = ? AND slug = ? LIMIT 1',
+    [categorySlug, slug]
+  )
+  const row = rows[0]
+  if (!row?.image_data) return null
+  return { data: row.image_data, mime: row.image_mime || 'application/octet-stream' }
+}
+
+export async function setSubcategoryImage(categorySlug, slug, buffer, mime) {
+  const imageUrl = subcategoryImageApiPath(categorySlug, slug)
+  const result = await execute(
+    'UPDATE subcategories SET image_data = ?, image_mime = ?, image = ? WHERE category_slug = ? AND slug = ?',
+    [buffer, mime, imageUrl, categorySlug, slug]
+  )
+  if (!result.affectedRows) return null
+  return imageUrl
+}
+
+export async function clearSubcategoryImage(categorySlug, slug) {
+  const result = await execute(
+    'UPDATE subcategories SET image_data = NULL, image_mime = NULL, image = ? WHERE category_slug = ? AND slug = ?',
+    ['', categorySlug, slug]
+  )
+  return result.affectedRows > 0
+}
+
 export async function updateSubcategory(categorySlug, slug, fields) {
   const rows = await query(
-    'SELECT * FROM subcategories WHERE category_slug = ? AND slug = ? LIMIT 1',
+    'SELECT slug, name, description, image, image_mime FROM subcategories WHERE category_slug = ? AND slug = ? LIMIT 1',
     [categorySlug, slug]
   )
   const current = rows[0]
   if (!current) return null
 
-  await execute(
-    'UPDATE subcategories SET name = ?, description = ?, image = ? WHERE category_slug = ? AND slug = ?',
-    [
-      fields.name ?? current.name,
-      fields.description ?? current.description,
-      fields.image ?? current.image,
-      categorySlug,
+  const name = fields.name ?? current.name
+  const description = fields.description ?? current.description
+
+  if (fields.image === undefined) {
+    await execute(
+      'UPDATE subcategories SET name = ?, description = ? WHERE category_slug = ? AND slug = ?',
+      [name, description, categorySlug, slug]
+    )
+    return {
+      id: slug,
+      name,
       slug,
-    ]
-  )
-  return {
-    id: slug,
-    name: fields.name ?? current.name,
-    slug,
-    description: fields.description ?? current.description,
-    image: fields.image ?? current.image,
+      description,
+      image: mapSubcategoryImage({ ...current, category_slug: categorySlug }),
+    }
   }
+
+  const nextImage = fields.image.trim()
+  if (!nextImage) {
+    await execute(
+      `UPDATE subcategories SET name = ?, description = ?, image = '', image_data = NULL, image_mime = NULL
+       WHERE category_slug = ? AND slug = ?`,
+      [name, description, categorySlug, slug]
+    )
+    return { id: slug, name, slug, description, image: '' }
+  }
+
+  if (nextImage.startsWith('/api/subcategories/')) {
+    await execute(
+      'UPDATE subcategories SET name = ?, description = ? WHERE category_slug = ? AND slug = ?',
+      [name, description, categorySlug, slug]
+    )
+    return {
+      id: slug,
+      name,
+      slug,
+      description,
+      image: mapSubcategoryImage({ ...current, category_slug: categorySlug }),
+    }
+  }
+
+  await execute(
+    `UPDATE subcategories SET name = ?, description = ?, image = ?, image_data = NULL, image_mime = NULL
+     WHERE category_slug = ? AND slug = ?`,
+    [name, description, nextImage, categorySlug, slug]
+  )
+  return { id: slug, name, slug, description, image: nextImage }
 }
 
 export async function deleteSubcategory(categorySlug, slug) {

@@ -21,7 +21,7 @@ export function resolveMediaUrl(url) {
     return `${getApiBase()}${url.replace(/^https?:\/\/[^/]+/, '')}`
   }
 
-  if (url.startsWith('/uploads/')) {
+  if (url.startsWith('/uploads/') || url.startsWith('/api/subcategories/')) {
     return `${getApiBase()}${url}`
   }
 

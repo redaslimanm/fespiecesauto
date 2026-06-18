@@ -16,6 +16,9 @@ import {
   insertSubcategory,
   updateSubcategory,
   deleteSubcategory,
+  getSubcategoryImage,
+  setSubcategoryImage,
+  clearSubcategoryImage,
   slugify,
   getUserByEmail,
   createUser,
@@ -70,6 +73,24 @@ const upload = multer({
     cb(new Error("Format d'image non supporté."))
   },
 })
+
+const memoryUpload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 5 * 1024 * 1024 },
+  fileFilter: (req, file, cb) => {
+    if (ALLOWED_IMAGE_TYPES.includes(file.mimetype)) return cb(null, true)
+    cb(new Error("Format d'image non supporté."))
+  },
+})
+
+function runMemoryUpload(req, res) {
+  return new Promise((resolve, reject) => {
+    memoryUpload.single('image')(req, res, (err) => {
+      if (err) reject(err)
+      else resolve()
+    })
+  })
+}
 
 app.post('/api/upload', (req, res) => {
   upload.single('image')(req, res, (err) => {
@@ -232,6 +253,55 @@ app.delete(
   '/api/categories/:slug/subcategories/:subSlug',
   asyncRoute(async (req, res) => {
     if (!(await deleteSubcategory(req.params.slug, req.params.subSlug))) {
+      return res.status(404).json({ error: 'Sous-catégorie introuvable.' })
+    }
+    res.status(204).end()
+  })
+)
+
+app.get(
+  '/api/subcategories/:categorySlug/:subSlug/image',
+  asyncRoute(async (req, res) => {
+    const image = await getSubcategoryImage(req.params.categorySlug, req.params.subSlug)
+    if (!image) return res.status(404).end()
+    res.set('Content-Type', image.mime)
+    res.set('Cache-Control', 'public, max-age=86400')
+    res.send(image.data)
+  })
+)
+
+app.put(
+  '/api/categories/:slug/subcategories/:subSlug/image',
+  asyncRoute(async (req, res) => {
+    if (!(await subcategoryExists(req.params.slug, req.params.subSlug))) {
+      return res.status(404).json({ error: 'Sous-catégorie introuvable.' })
+    }
+
+    try {
+      await runMemoryUpload(req, res)
+    } catch (err) {
+      return res.status(400).json({ error: err.message })
+    }
+
+    if (!req.file?.buffer?.length) {
+      return res.status(400).json({ error: 'Aucun fichier reçu.' })
+    }
+
+    const url = await setSubcategoryImage(
+      req.params.slug,
+      req.params.subSlug,
+      req.file.buffer,
+      req.file.mimetype
+    )
+    if (!url) return res.status(404).json({ error: 'Sous-catégorie introuvable.' })
+    res.json({ url })
+  })
+)
+
+app.delete(
+  '/api/categories/:slug/subcategories/:subSlug/image',
+  asyncRoute(async (req, res) => {
+    if (!(await clearSubcategoryImage(req.params.slug, req.params.subSlug))) {
       return res.status(404).json({ error: 'Sous-catégorie introuvable.' })
     }
     res.status(204).end()

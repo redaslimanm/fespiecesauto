@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "migrate:sqlite": "node --experimental-sqlite scripts/migrate-sqlite-to-mysql.js"
+    "migrate:sqlite": "node --experimental-sqlite scripts/migrate-sqlite-to-mysql.js",
+    "migrate:subcategory-images": "node scripts/migrate-subcategory-images-to-db.js"
   },
   "dependencies": {
     "autopiecesfes": "file:..",

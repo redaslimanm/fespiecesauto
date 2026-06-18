@@ -20,6 +20,8 @@ import {
 
   deleteSubcategory,
 
+  uploadSubcategoryImage,
+
 } from '../../utils/api'
 
 
@@ -488,6 +490,8 @@ function SubcategoryFormModal({ mode, categories, editing, onClose, onSaved }) {
 
   const [image, setImage] = useState(editing?.sub?.image ?? '')
 
+  const [imageFile, setImageFile] = useState(null)
+
   const [submitting, setSubmitting] = useState(false)
 
   const [error, setError] = useState('')
@@ -520,15 +524,50 @@ function SubcategoryFormModal({ mode, categories, editing, onClose, onSaved }) {
 
     try {
 
+      const externalImage =
+        image && !image.startsWith('blob:') && !image.startsWith('/api/subcategories/')
+          ? image.trim()
+          : ''
+
       if (isEdit) {
 
-        await updateSubcategory(editing.categorySlug, editing.sub.slug, { name, description, image })
+        const payload = { name, description }
+
+        if (imageFile) {
+
+          await updateSubcategory(editing.categorySlug, editing.sub.slug, payload)
+
+          await uploadSubcategoryImage(editing.categorySlug, editing.sub.slug, imageFile)
+
+        } else if (!image) {
+
+          await updateSubcategory(editing.categorySlug, editing.sub.slug, { ...payload, image: '' })
+
+        } else if (externalImage) {
+
+          await updateSubcategory(editing.categorySlug, editing.sub.slug, { ...payload, image: externalImage })
+
+        } else {
+
+          await updateSubcategory(editing.categorySlug, editing.sub.slug, payload)
+
+        }
 
         onSaved(editing.categorySlug)
 
       } else {
 
-        await createSubcategory(categorySlug, { name, description, image })
+        const created = await createSubcategory(categorySlug, {
+          name,
+          description,
+          image: externalImage,
+        })
+
+        if (imageFile) {
+
+          await uploadSubcategoryImage(categorySlug, created.slug, imageFile)
+
+        }
 
         onSaved(categorySlug)
 
@@ -674,7 +713,12 @@ function SubcategoryFormModal({ mode, categories, editing, onClose, onSaved }) {
 
         </div>
 
-        <ImageField label="Image" value={image} onChange={setImage} />
+        <ImageField
+          label="Image"
+          value={image}
+          onChange={setImage}
+          onFileSelect={setImageFile}
+        />
 
 
 

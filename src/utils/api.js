@@ -30,6 +30,32 @@ export async function uploadImage(file) {
   return data.url
 }
 
+export async function uploadSubcategoryImage(categorySlug, subSlug, file) {
+  const formData = new FormData()
+  formData.append('image', file)
+
+  const response = await fetch(
+    `${getApiBase()}/api/categories/${categorySlug}/subcategories/${subSlug}/image`,
+    { method: 'PUT', body: formData }
+  )
+  const data = await response.json().catch(() => null)
+  if (!response.ok) {
+    throw new Error(data?.error || "Échec de l'envoi de l'image.")
+  }
+  return data.url
+}
+
+export async function deleteSubcategoryImage(categorySlug, subSlug) {
+  const response = await fetch(
+    `${getApiBase()}/api/categories/${categorySlug}/subcategories/${subSlug}/image`,
+    { method: 'DELETE' }
+  )
+  if (!response.ok && response.status !== 204) {
+    const data = await response.json().catch(() => null)
+    throw new Error(data?.error || "Échec de la suppression de l'image.")
+  }
+}
+
 export async function loginUser(credentials) {
   const data = await request('/api/auth/login', {
     method: 'POST',

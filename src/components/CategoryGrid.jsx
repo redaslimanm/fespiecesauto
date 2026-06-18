@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 
+import { categoryPath } from '../utils/routes'
+
 import CategoryIcon from './CategoryIcon'
 
 
@@ -16,7 +18,7 @@ export default function CategoryGrid({ categories }) {
 
           key={cat.id}
 
-          to={`/categories/${cat.slug}`}
+          to={categoryPath(cat.slug)}
 
           className="group flex flex-col items-center rounded-xl px-3 py-5 transition-all duration-300 hover:bg-white hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)] sm:px-4 sm:py-6"
 

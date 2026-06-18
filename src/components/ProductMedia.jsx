@@ -15,7 +15,10 @@ export default function ProductMedia({ product, variant = 'card', className = ''
           <img
             src={image}
             alt={product.name}
+            width={400}
+            height={300}
             loading="lazy"
+            decoding="async"
             className="max-h-full max-w-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.02]"
           />
         </div>

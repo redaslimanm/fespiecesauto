@@ -21,6 +21,8 @@ CREATE TABLE IF NOT EXISTS subcategories (
   name VARCHAR(255) NOT NULL,
   description TEXT,
   image TEXT,
+  image_data MEDIUMBLOB,
+  image_mime VARCHAR(127),
   PRIMARY KEY (category_slug, slug),
   FOREIGN KEY (category_slug) REFERENCES categories(slug) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

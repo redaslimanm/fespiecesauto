@@ -2,6 +2,7 @@ const MAP_COORDS = '34.016944,-4.985167'
 
 export const SITE = {
   name: 'Fes Pièces Auto',
+  brandName: 'FesPiecesAuto',
   nameLine1: 'Fes Pièces',
   nameLine2: 'Auto',
   tagline: 'Vente & import de pièces automobiles',

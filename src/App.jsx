@@ -17,6 +17,10 @@ import AdminCategories from './pages/admin/AdminCategories'
 import AdminSubcategories from './pages/admin/AdminSubcategories'
 import AdminProducts from './pages/admin/AdminProducts'
 import RequireAdmin from './components/RequireAdmin'
+import {
+  LegacyCategoryRedirect,
+  LegacySubcategoryRedirect,
+} from './components/LegacyCategoryRedirect'
 import { AuthProvider } from './context/AuthContext'
 import { FavoritesProvider } from './context/FavoritesContext'
 
@@ -29,8 +33,13 @@ export default function App() {
             <Route element={<Layout />}>
               <Route index element={<HomePage />} />
               <Route path="categories" element={<CategoriesPage />} />
-              <Route path="categories/:categorySlug" element={<CategoryDetailPage />} />
-              <Route path="categories/:categorySlug/:subcategorySlug" element={<SubcategoryPage />} />
+              <Route path="categorie/:categorySlug" element={<CategoryDetailPage />} />
+              <Route path="categorie/:categorySlug/:subcategorySlug" element={<SubcategoryPage />} />
+              <Route path="categories/:categorySlug" element={<LegacyCategoryRedirect />} />
+              <Route
+                path="categories/:categorySlug/:subcategorySlug"
+                element={<LegacySubcategoryRedirect />}
+              />
               <Route path="produit/:productSlug" element={<ProductDetailsPage />} />
               <Route path="sous-categories" element={<SubcategoriesPage />} />
               <Route path="recherche" element={<SearchResultsPage />} />
