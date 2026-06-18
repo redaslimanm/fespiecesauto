@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
+Disallow: /favoris
+
+Sitemap: https://fespiecesauto.ma/sitemap.xml

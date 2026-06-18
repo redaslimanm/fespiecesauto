@@ -1,0 +1,257 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Plaquettes de frein avant Bosch",
+    "slug": "plaquettes-frein-avant-bosch",
+    "reference": "BP-0986494-123",
+    "description": "Plaquettes de frein avant haute performance pour véhicules légers. Matériau céramique pour un freinage silencieux et efficace. Compatible avec de nombreux modèles européens et asiatiques.",
+    "categorySlug": "freinage",
+    "subcategorySlug": "plaquettes-frein",
+    "images": [
+      "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Renault", "models": ["Clio IV", "Megane III", "Captur"] },
+      { "brand": "Peugeot", "models": ["208", "308", "3008"] },
+      { "brand": "Dacia", "models": ["Sandero", "Duster"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-002",
+    "name": "Disques de frein ventilés TRW",
+    "slug": "disques-frein-ventiles-trw",
+    "reference": "DF-DF4023",
+    "description": "Paire de disques de frein ventilés en fonte grise. Surface usinée pour une adhérence optimale. Résistance élevée à la corrosion.",
+    "categorySlug": "freinage",
+    "subcategorySlug": "disques-frein",
+    "images": [
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Volkswagen", "models": ["Golf VII", "Polo", "Passat"] },
+      { "brand": "Audi", "models": ["A3", "A4"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-003",
+    "name": "Étrier de frein remanufacturé",
+    "slug": "etrier-frein-remanufacture",
+    "reference": "ET-BHN-204",
+    "description": "Étrier de frein avant gauche remanufacturé. Testé et certifié. Inclut les joints et vis de fixation.",
+    "categorySlug": "freinage",
+    "subcategorySlug": "etriers",
+    "images": [
+      "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "BMW", "models": ["Série 3 E90", "Série 1"] },
+      { "brand": "Mercedes", "models": ["Classe C W204"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-004",
+    "name": "Liquide de frein DOT 4",
+    "slug": "liquide-frein-dot4",
+    "reference": "LF-DOT4-1L",
+    "description": "Liquide de frein synthétique DOT 4, 1 litre. Point d'ébullition élevé pour une sécurité maximale. Compatible avec tous les systèmes ABS.",
+    "categorySlug": "freinage",
+    "subcategorySlug": "liquide-frein",
+    "images": [
+      "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Universel", "models": ["Tous véhicules DOT 4"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-005",
+    "name": "Capteur ABS avant",
+    "slug": "capteur-abs-avant",
+    "reference": "ABS-SEN-4521",
+    "description": "Capteur de vitesse de roue ABS avant. Signal précis pour le système antiblocage. Installation plug-and-play.",
+    "categorySlug": "freinage",
+    "subcategorySlug": "abs",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Ford", "models": ["Focus", "Fiesta"] },
+      { "brand": "Opel", "models": ["Astra", "Corsa"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-006",
+    "name": "Batterie 70Ah 680A",
+    "slug": "batterie-70ah-680a",
+    "reference": "BAT-70AH-680",
+    "description": "Batterie au plomb 12V, 70Ah, 680A de démarrage. Technologie calcium pour une durée de vie prolongée. Maintenance-free.",
+    "categorySlug": "demarrage-charge",
+    "subcategorySlug": "batteries-demarrage",
+    "images": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Renault", "models": ["Kangoo", "Trafic"] },
+      { "brand": "Citroën", "models": ["Berlingo", "Jumpy"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-007",
+    "name": "Amortisseur avant Monroe",
+    "slug": "amortisseur-avant-monroe",
+    "reference": "AM-G7434",
+    "description": "Amortisseur avant gaz à haute pression. Confort et tenue de route améliorés. Garantie 2 ans.",
+    "categorySlug": "amortissement",
+    "subcategorySlug": "amortisseurs",
+    "images": [
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Toyota", "models": ["Corolla", "Yaris"] },
+      { "brand": "Nissan", "models": ["Micra", "Qashqai"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-008",
+    "name": "Filtre à huile Mann-Filter",
+    "slug": "filtre-huile-mann-filter",
+    "reference": "FL-W712/75",
+    "description": "Filtre à huile haute qualité avec valve anti-retour. Filtration fine pour une protection optimale du moteur.",
+    "categorySlug": "filtres",
+    "subcategorySlug": "filtre-huile",
+    "images": [
+      "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Volkswagen", "models": ["Golf", "Tiguan", "Touran"] },
+      { "brand": "Seat", "models": ["Leon", "Ibiza"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-009",
+    "name": "Kit ampoules H7 Philips",
+    "slug": "kit-ampoules-h7-philips",
+    "reference": "AMP-H7-PH",
+    "description": "Paire d'ampoules halogènes H7 55W. Lumière blanche 4300K. Longue durée de vie.",
+    "categorySlug": "eclairage",
+    "subcategorySlug": "ampoules",
+    "images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Universel", "models": ["Feux H7 standard"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-010",
+    "name": "Compresseur climatisation Denso",
+    "slug": "compresseur-clim-denso",
+    "reference": "CL-DNS-8842",
+    "description": "Compresseur de climatisation neuf. Huile PAG incluse. Performance OEM.",
+    "categorySlug": "chauffage-climatisation",
+    "subcategorySlug": "compresseur-clim",
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b5c1050e2?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Hyundai", "models": ["i30", "Tucson"] },
+      { "brand": "Kia", "models": ["Ceed", "Sportage"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-011",
+    "name": "Kit embrayage Luk",
+    "slug": "kit-embrayage-luk",
+    "reference": "EMB-LUK-623",
+    "description": "Kit embrayage complet : disque, plateau et butée. Pour boîtes manuelles 5 et 6 vitesses.",
+    "categorySlug": "embrayage",
+    "subcategorySlug": "kit-embrayage",
+    "images": [
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Peugeot", "models": ["Partner", "Expert"] },
+      { "brand": "Citroën", "models": ["C4", "C5"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-012",
+    "name": "Kit courroie de distribution Gates",
+    "slug": "kit-courroie-distribution-gates",
+    "reference": "KD-GAT-KP15569",
+    "description": "Kit courroie de distribution avec galets tendeurs et pompe à eau. Intervalle recommandé : 120 000 km.",
+    "categorySlug": "distribution-moteur",
+    "subcategorySlug": "distribution",
+    "images": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Renault", "models": ["Clio", "Megane", "Scenic"] },
+      { "brand": "Nissan", "models": ["Note", "Juke"] }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-013",
+    "name": "Alternateur 120A Bosch",
+    "slug": "alternateur-120a-bosch",
+    "reference": "ALT-BSH-0124",
+    "description": "Alternateur 12V 120A remanufacturé. Charge rapide et silencieux. Garantie constructeur.",
+    "categorySlug": "demarrage-charge",
+    "subcategorySlug": "alternateur",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Mercedes", "models": ["Classe A", "Classe B"] },
+      { "brand": "BMW", "models": ["Série 1", "Série 2"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-014",
+    "name": "Filtre à air sport K&N",
+    "slug": "filtre-air-sport-kn",
+    "reference": "FA-KN-33-2234",
+    "description": "Filtre à air haute performance lavable. Améliore le débit d'air et la réponse moteur.",
+    "categorySlug": "filtres",
+    "subcategorySlug": "filtre-air",
+    "images": [
+      "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Ford", "models": ["Mustang", "Focus ST"] },
+      { "brand": "Volkswagen", "models": ["Golf GTI"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-015",
+    "name": "Silent-bloc de bras de suspension",
+    "slug": "silent-bloc-bras-suspension",
+    "reference": "SB-LEM-3520",
+    "description": "Silent-bloc caoutchouc/métal pour bras de suspension inférieur. Qualité OEM.",
+    "categorySlug": "suspension-roue",
+    "subcategorySlug": "silent-blocs",
+    "images": [
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=600&fit=crop"
+    ],
+    "compatibility": [
+      { "brand": "Dacia", "models": ["Logan", "Sandero Stepway"] },
+      { "brand": "Renault", "models": ["Symbol", "Fluence"] }
+    ],
+    "featured": false
+  }
+]

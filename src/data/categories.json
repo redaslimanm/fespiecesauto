@@ -1,0 +1,382 @@
+[
+  {
+    "id": "outillages",
+    "name": "Outillages",
+    "slug": "outillages",
+    "description": "Outillage professionnel et équipements de garage.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/outillages.png",
+    "subcategories": []
+  },
+  {
+    "id": "nettoyage-entretien",
+    "name": "Nettoyage et entretien",
+    "slug": "nettoyage-entretien",
+    "description": "Produits de nettoyage et d'entretien automobile.",
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/nettoyage-entretien.png",
+    "subcategories": []
+  },
+  {
+    "id": "huiles-fluides",
+    "name": "Huiles et fluides",
+    "slug": "huiles-fluides",
+    "description": "Huiles moteur, liquides de frein et fluides hydrauliques.",
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/huiles-fluides.png",
+    "subcategories": []
+  },
+  {
+    "id": "demarrage-charge",
+    "name": "Système démarrage et charge",
+    "slug": "demarrage-charge",
+    "description": "Batteries, démarreurs, alternateurs et composants de charge.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/demarrage-charge.png",
+    "subcategories": [
+      {
+        "id": "batteries-demarrage",
+        "name": "Batteries de démarrage",
+        "slug": "batteries-demarrage"
+      },
+      {
+        "id": "alternateur",
+        "name": "Alternateur",
+        "slug": "alternateur"
+      },
+      {
+        "id": "demarreur",
+        "name": "Démarreur",
+        "slug": "demarreur"
+      }
+    ]
+  },
+  {
+    "id": "allumage-prechauffage",
+    "name": "Allumage et Préchauffage",
+    "slug": "allumage-prechauffage",
+    "description": "Bougies, bobines et systèmes de préchauffage.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/allumage-prechauffage.png",
+    "subcategories": []
+  },
+  {
+    "id": "filtres",
+    "name": "Filtres",
+    "slug": "filtres",
+    "description": "Filtres à air, à huile, à carburant et habitacle.",
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/filtres.png",
+    "subcategories": [
+      {
+        "id": "filtre-huile",
+        "name": "Filtre à huile",
+        "slug": "filtre-huile"
+      },
+      {
+        "id": "filtre-air",
+        "name": "Filtre à air",
+        "slug": "filtre-air"
+      },
+      {
+        "id": "filtre-carburant",
+        "name": "Filtre à carburant",
+        "slug": "filtre-carburant"
+      },
+      {
+        "id": "filtre-habitacle",
+        "name": "Filtre habitacle",
+        "slug": "filtre-habitacle"
+      }
+    ]
+  },
+  {
+    "id": "freinage",
+    "name": "Freinage",
+    "slug": "freinage",
+    "description": "Plaquettes, disques, étriers et liquides de frein.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/freinage.png",
+    "subcategories": [
+      {
+        "id": "plaquettes-frein",
+        "name": "Plaquettes de frein",
+        "slug": "plaquettes-frein"
+      },
+      {
+        "id": "disques-frein",
+        "name": "Disques de frein",
+        "slug": "disques-frein"
+      },
+      {
+        "id": "etriers",
+        "name": "Étriers",
+        "slug": "etriers"
+      },
+      {
+        "id": "liquide-frein",
+        "name": "Liquide de frein",
+        "slug": "liquide-frein"
+      },
+      {
+        "id": "abs",
+        "name": "ABS",
+        "slug": "abs"
+      }
+    ]
+  },
+  {
+    "id": "amortissement",
+    "name": "Amortissement",
+    "slug": "amortissement",
+    "description": "Amortisseurs et kits de suspension.",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/amortissement.png",
+    "subcategories": [
+      {
+        "id": "amortisseurs",
+        "name": "Amortisseurs",
+        "slug": "amortisseurs"
+      }
+    ]
+  },
+  {
+    "id": "suspension-roue",
+    "name": "Suspension de roue",
+    "slug": "suspension-roue",
+    "description": "Bras de suspension, rotules et silent-blocs.",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/suspension-roue.png",
+    "subcategories": [
+      {
+        "id": "silent-blocs",
+        "name": "Silent-blocs",
+        "slug": "silent-blocs"
+      },
+      {
+        "id": "rotules",
+        "name": "Rotules",
+        "slug": "rotules"
+      }
+    ]
+  },
+  {
+    "id": "direction",
+    "name": "Direction",
+    "slug": "direction",
+    "description": "Crémaillère, rotules de direction et biellettes.",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/direction.png",
+    "subcategories": []
+  },
+  {
+    "id": "eclairage",
+    "name": "Éclairage",
+    "slug": "eclairage",
+    "description": "Ampoules, phares et feux arrière.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/eclairage.png",
+    "subcategories": [
+      {
+        "id": "ampoules",
+        "name": "Ampoules",
+        "slug": "ampoules"
+      },
+      {
+        "id": "phares",
+        "name": "Phares",
+        "slug": "phares"
+      },
+      {
+        "id": "feux-arriere",
+        "name": "Feux arrière",
+        "slug": "feux-arriere"
+      }
+    ]
+  },
+  {
+    "id": "carrosserie",
+    "name": "Carrosserie",
+    "slug": "carrosserie",
+    "description": "Pare-chocs, ailes, capots et éléments de carrosserie.",
+    "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/carrosserie.png",
+    "subcategories": []
+  },
+  {
+    "id": "courroies-chaines",
+    "name": "Courroies et chaînes",
+    "slug": "courroies-chaines",
+    "description": "Courroies d'accessoires et chaînes de distribution.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/courroies-chaines.png",
+    "subcategories": []
+  },
+  {
+    "id": "distribution-moteur",
+    "name": "Distribution moteur",
+    "slug": "distribution-moteur",
+    "description": "Kits de distribution, galets et pompes à eau.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/distribution-moteur.png",
+    "subcategories": [
+      {
+        "id": "distribution",
+        "name": "Distribution",
+        "slug": "distribution"
+      }
+    ]
+  },
+  {
+    "id": "embrayage",
+    "name": "Embrayage",
+    "slug": "embrayage",
+    "description": "Kits d'embrayage, volants moteur et butées.",
+    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/embrayage.png",
+    "subcategories": [
+      {
+        "id": "kit-embrayage",
+        "name": "Kit d'embrayage",
+        "slug": "kit-embrayage"
+      },
+      {
+        "id": "butee-embrayage",
+        "name": "Butée d'embrayage",
+        "slug": "butee-embrayage"
+      }
+    ]
+  },
+  {
+    "id": "boite-vitesses",
+    "name": "Boîte de vitesses",
+    "slug": "boite-vitesses",
+    "description": "Pièces de boîte manuelle et automatique.",
+    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/boite-vitesses.png",
+    "subcategories": []
+  },
+  {
+    "id": "capteurs",
+    "name": "Capteurs",
+    "slug": "capteurs",
+    "description": "Capteurs moteur, ABS et capteurs de pression.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/capteurs.png",
+    "subcategories": []
+  },
+  {
+    "id": "essuie-glace",
+    "name": "Essuie-glace",
+    "slug": "essuie-glace",
+    "description": "Balais, moteurs et bras d'essuie-glace.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/essuie-glace.png",
+    "subcategories": []
+  },
+  {
+    "id": "chauffage-climatisation",
+    "name": "Chauffage et Climatisation",
+    "slug": "chauffage-climatisation",
+    "description": "Compresseurs, condenseurs et radiateurs de chauffage.",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b5c1050e2?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/chauffage-climatisation.png",
+    "subcategories": [
+      {
+        "id": "compresseur-clim",
+        "name": "Compresseur climatisation",
+        "slug": "compresseur-clim"
+      }
+    ]
+  },
+  {
+    "id": "interieur-confort",
+    "name": "Intérieur et confort",
+    "slug": "interieur-confort",
+    "description": "Sièges, tapis et accessoires intérieurs.",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b5c1050e2?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/interieur-confort.png",
+    "subcategories": []
+  },
+  {
+    "id": "pieces-moteur",
+    "name": "Pièces moteur",
+    "slug": "pieces-moteur",
+    "description": "Joints, pistons et composants moteur.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/pieces-moteur.png",
+    "subcategories": []
+  },
+  {
+    "id": "transmission",
+    "name": "Transmission",
+    "slug": "transmission",
+    "description": "Arbres de transmission, cardans et joints SPI.",
+    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/transmission.png",
+    "subcategories": []
+  },
+  {
+    "id": "refroidissement-moteur",
+    "name": "Refroidissement moteur",
+    "slug": "refroidissement-moteur",
+    "description": "Radiateurs, thermostats et pompes à eau.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/refroidissement-moteur.png",
+    "subcategories": []
+  },
+  {
+    "id": "systeme-injection",
+    "name": "Système d'injection",
+    "slug": "systeme-injection",
+    "description": "Injecteurs, rampes et régulateurs de pression.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/systeme-injection.png",
+    "subcategories": []
+  },
+  {
+    "id": "systeme-alimentation",
+    "name": "Système d'alimentation",
+    "slug": "systeme-alimentation",
+    "description": "Pompes à carburant, réservoirs et durites.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/systeme-alimentation.png",
+    "subcategories": []
+  },
+  {
+    "id": "echappement",
+    "name": "Échappement",
+    "slug": "echappement",
+    "description": "Lignes, silencieux et catalyseurs.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/echappement.png",
+    "subcategories": []
+  },
+  {
+    "id": "lubrification",
+    "name": "Système de lubrification",
+    "slug": "lubrification",
+    "description": "Pompes à huile, carter et durites d'huile.",
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/lubrification.png",
+    "subcategories": []
+  },
+  {
+    "id": "pneus-produits",
+    "name": "Pneus et produits associés",
+    "slug": "pneus-produits",
+    "description": "Pneus, valves et produits d'entretien pneus.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/pneus-produits.png",
+    "subcategories": []
+  },
+  {
+    "id": "signalisation",
+    "name": "Signalisation",
+    "slug": "signalisation",
+    "description": "Gyrophares, klaxons et feux de signalisation.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
+    "iconPng": "/categories/icons/signalisation.png",
+    "subcategories": []
+  }
+]

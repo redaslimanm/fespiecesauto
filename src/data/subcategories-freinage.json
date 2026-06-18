@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "plaquettes-frein",
+    "name": "Plaquettes de frein",
+    "description": "Plaquettes avant et arrière pour tous types de véhicules.",
+    "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "disques-frein",
+    "name": "Disques de frein",
+    "description": "Disques pleins, ventilés et percés.",
+    "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "disque-de-frein-perfore",
+    "name": "Disque de frein perforé",
+    "description": "Disques perforés haute performance.",
+    "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "disques-frein-ventiles",
+    "name": "Disques de frein ventilés",
+    "description": "Disques ventilés pour un refroidissement optimal.",
+    "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "etriers",
+    "name": "Étriers de frein",
+    "description": "Étriers avant, arrière et pièces associées.",
+    "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "kit-reparation-etrier",
+    "name": "Kit de réparation étrier",
+    "description": "Joints, pistons et kits de remise en état.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "liquide-frein",
+    "name": "Liquide de frein",
+    "description": "Liquides DOT 3, DOT 4 et DOT 5.1.",
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "flexibles-frein",
+    "name": "Flexibles de frein",
+    "description": "Durites et flexibles hydrauliques.",
+    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "tambours-frein",
+    "name": "Tambours de frein",
+    "description": "Tambours pour freins à tambour.",
+    "image": "https://images.unsplash.com/photo-1753183700294-a2dbeb81e168?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "machoires-frein",
+    "name": "Mâchoires de frein",
+    "description": "Mâchoires et garnitures pour tambours.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "cylindres-roue",
+    "name": "Cylindres de roue",
+    "description": "Cylindres de roue et kits de réparation.",
+    "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "maitre-cylindre",
+    "name": "Maître-cylindre",
+    "description": "Maîtres-cylindres et kits de réparation.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "servo-frein",
+    "name": "Servo-frein",
+    "description": "Servofreins et assistances de freinage.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "pompe-vide",
+    "name": "Pompe à vide",
+    "description": "Pompes à vide pour assistance au freinage.",
+    "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "abs",
+    "name": "Système ABS",
+    "description": "Blocs ABS, calculateurs et modules.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "capteurs-abs",
+    "name": "Capteurs ABS",
+    "description": "Capteurs de vitesse de roue ABS.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "kit-frein",
+    "name": "Kit de frein complet",
+    "description": "Kits plaquettes + disques prêts à monter.",
+    "image": "https://images.unsplash.com/photo-1753183700294-a2dbeb81e168?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "garnitures-frein",
+    "name": "Garnitures de frein",
+    "description": "Garnitures pour freins à tambour.",
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "ressorts-clips-plaquettes",
+    "name": "Ressorts et clips plaquettes",
+    "description": "Accessoires de montage pour plaquettes.",
+    "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+  },
+  {
+    "slug": "temoins-frein",
+    "name": "Témoins et capteurs d'usure",
+    "description": "Capteurs d'usure et témoins de frein.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop"
+  }
+]

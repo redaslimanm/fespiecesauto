@@ -1,0 +1,3540 @@
+{
+  "outillages": [
+    {
+      "slug": "cle-dynamometrique",
+      "name": "Clé dynamométrique",
+      "description": "Clés dynamométriques pour serrages précis.",
+      "image": ""
+    },
+    {
+      "slug": "cric-hydraulique",
+      "name": "Cric hydraulique",
+      "description": "Crics et chandelles pour levage véhicule.",
+      "image": ""
+    },
+    {
+      "slug": "chariot-elevateur",
+      "name": "Chariot élévateur",
+      "description": "Chariots et rouleaux de déplacement.",
+      "image": ""
+    },
+    {
+      "slug": "boite-outils",
+      "name": "Boîte à outils",
+      "description": "Coffrets et servantes d’atelier.",
+      "image": ""
+    },
+    {
+      "slug": "douilles-cliquets",
+      "name": "Douilles et cliquets",
+      "description": "Jeux de douilles, cliquets et extensions.",
+      "image": ""
+    },
+    {
+      "slug": "extracteurs",
+      "name": "Extracteurs",
+      "description": "Extracteurs de rotules, roulements et poulies.",
+      "image": ""
+    },
+    {
+      "slug": "multimetre-auto",
+      "name": "Multimètre automobile",
+      "description": "Multimètres et testeurs électriques.",
+      "image": ""
+    },
+    {
+      "slug": "compresseur-air",
+      "name": "Compresseur d’air",
+      "description": "Compresseurs et accessoires pneumatiques.",
+      "image": ""
+    },
+    {
+      "slug": "diagnostic-obd",
+      "name": "Appareil diagnostic OBD",
+      "description": "Valises de diagnostic et interfaces OBD.",
+      "image": ""
+    },
+    {
+      "slug": "tournevis-embouts",
+      "name": "Tournevis et embouts",
+      "description": "Tournevis, embouts et porte-embouts.",
+      "image": ""
+    },
+    {
+      "slug": "pinces-tenailles",
+      "name": "Pinces et tenailles",
+      "description": "Pinces, tenailles et serre-joints.",
+      "image": ""
+    },
+    {
+      "slug": "cles-plates",
+      "name": "Clés plates et mixtes",
+      "description": "Clés plates, mixtes et à pipe.",
+      "image": ""
+    },
+    {
+      "slug": "equipement-levage-moteur",
+      "name": "Équipement levage moteur",
+      "description": "Palans, chaînes et supports moteur.",
+      "image": ""
+    },
+    {
+      "slug": "pistolet-graissage",
+      "name": "Pistolets de graissage",
+      "description": "Pistolets et flexibles de graissage.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-atelier",
+      "name": "Éclairage d’atelier",
+      "description": "Lampes, projecteurs et baladeuses.",
+      "image": ""
+    },
+    {
+      "slug": "equipement-securite",
+      "name": "Équipement sécurité garage",
+      "description": "Gants, lunettes et protections.",
+      "image": ""
+    },
+    {
+      "slug": "pont-elevateur-accessoires",
+      "name": "Accessoires pont élévateur",
+      "description": "Adaptateurs et accessoires pour ponts.",
+      "image": ""
+    },
+    {
+      "slug": "marteaux-maillets",
+      "name": "Marteaux et maillets",
+      "description": "Marteaux, maillets et tas.",
+      "image": ""
+    },
+    {
+      "slug": "chandelles-levage",
+      "name": "Chandelles de levage",
+      "description": "Chandelles et cales de sécurité.",
+      "image": ""
+    },
+    {
+      "slug": "servante-atelier",
+      "name": "Servante d’atelier",
+      "description": "Servantes roulantes et rangements.",
+      "image": ""
+    }
+  ],
+  "nettoyage-entretien": [
+    {
+      "slug": "shampoing-carrosserie",
+      "name": "Shampoing carrosserie",
+      "description": "Shampoings et mousses de lavage.",
+      "image": ""
+    },
+    {
+      "slug": "cire-polish",
+      "name": "Cire et polish",
+      "description": "Cires, polish et produits de brillance.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-jantes",
+      "name": "Nettoyant jantes",
+      "description": "Nettoyants et dégraissants pour jantes.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-interieur",
+      "name": "Nettoyant intérieur",
+      "description": "Sprays et mousses pour habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "desodorant-habitacle",
+      "name": "Désodorisant habitacle",
+      "description": "Parfums et neutralisants d’odeurs.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-vitres",
+      "name": "Nettoyant vitres",
+      "description": "Produits pour vitres et pare-brise.",
+      "image": ""
+    },
+    {
+      "slug": "entretien-cuir",
+      "name": "Entretien cuir",
+      "description": "Nettoyants et nourrissants cuir.",
+      "image": ""
+    },
+    {
+      "slug": "entretien-plastiques",
+      "name": "Entretien plastiques",
+      "description": "Rénovateurs et protecteurs plastiques.",
+      "image": ""
+    },
+    {
+      "slug": "degreissant-moteur",
+      "name": "Dégraissant moteur",
+      "description": "Dégraissants et nettoyants moteur.",
+      "image": ""
+    },
+    {
+      "slug": "brosses-eponges",
+      "name": "Brosses et éponges",
+      "description": "Brosses, éponges et gants de lavage.",
+      "image": ""
+    },
+    {
+      "slug": "chiffons-microfibre",
+      "name": "Chiffons microfibre",
+      "description": "Chiffons et peaux de chamois.",
+      "image": ""
+    },
+    {
+      "slug": "protecteur-carrosserie",
+      "name": "Protecteur carrosserie",
+      "description": "Céramique, sealants et protections.",
+      "image": ""
+    },
+    {
+      "slug": "antirouille",
+      "name": "Antirouille",
+      "description": "Traitements antirouille et anticorrosion.",
+      "image": ""
+    },
+    {
+      "slug": "additif-carburant",
+      "name": "Additif carburant",
+      "description": "Additifs essence et diesel.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-freins",
+      "name": "Nettoyant freins",
+      "description": "Sprays nettoyants pour freins.",
+      "image": ""
+    },
+    {
+      "slug": "spray-silicone",
+      "name": "Spray silicone",
+      "description": "Silicones et lubrifiants sec.",
+      "image": ""
+    },
+    {
+      "slug": "traitement-underbody",
+      "name": "Traitement soubassement",
+      "description": "Protection et entretien soubassement.",
+      "image": ""
+    },
+    {
+      "slug": "kit-lavage",
+      "name": "Kit lavage complet",
+      "description": "Kits lavage et accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "aspiration-accessoires",
+      "name": "Aspiration et accessoires",
+      "description": "Aspirateurs et embouts auto.",
+      "image": ""
+    },
+    {
+      "slug": "lave-glace-antigel",
+      "name": "Lave-glace et antigel",
+      "description": "Liquides lave-glace et antigel.",
+      "image": ""
+    }
+  ],
+  "huiles-fluides": [
+    {
+      "slug": "huile-5w30",
+      "name": "Huile moteur 5W30",
+      "description": "Huiles multigrades 5W30.",
+      "image": ""
+    },
+    {
+      "slug": "huile-10w40",
+      "name": "Huile moteur 10W40",
+      "description": "Huiles multigrades 10W40.",
+      "image": ""
+    },
+    {
+      "slug": "huile-15w40",
+      "name": "Huile moteur 15W40",
+      "description": "Huiles multigrades 15W40.",
+      "image": ""
+    },
+    {
+      "slug": "huile-synthese",
+      "name": "Huile moteur synthèse",
+      "description": "Huiles 100 % synthétiques.",
+      "image": ""
+    },
+    {
+      "slug": "huile-minerale",
+      "name": "Huile moteur minérale",
+      "description": "Huiles minérales classiques.",
+      "image": ""
+    },
+    {
+      "slug": "huile-boite-auto",
+      "name": "Huile boîte automatique",
+      "description": "Huiles pour boîtes automatiques.",
+      "image": ""
+    },
+    {
+      "slug": "huile-boite-manuelle",
+      "name": "Huile boîte manuelle",
+      "description": "Huiles pour boîtes manuelles.",
+      "image": ""
+    },
+    {
+      "slug": "huile-direction",
+      "name": "Huile direction assistée",
+      "description": "Fluides pour direction assistée.",
+      "image": ""
+    },
+    {
+      "slug": "liquide-frein-dot4",
+      "name": "Liquide de frein DOT 4",
+      "description": "Liquides de frein DOT 4.",
+      "image": ""
+    },
+    {
+      "slug": "liquide-refroidissement",
+      "name": "Liquide de refroidissement",
+      "description": "Antigel et liquides refroidissement.",
+      "image": ""
+    },
+    {
+      "slug": "additif-huile",
+      "name": "Additif huile moteur",
+      "description": "Additifs anti-usure et nettoyants.",
+      "image": ""
+    },
+    {
+      "slug": "graisse-roulements",
+      "name": "Graisse roulements",
+      "description": "Graisses pour roulements et joints.",
+      "image": ""
+    },
+    {
+      "slug": "fluide-hydraulique",
+      "name": "Fluide hydraulique",
+      "description": "Fluides hydrauliques divers.",
+      "image": ""
+    },
+    {
+      "slug": "huile-pont",
+      "name": "Huile pont arrière",
+      "description": "Huiles pour ponts et différentiels.",
+      "image": ""
+    },
+    {
+      "slug": "huile-transfer",
+      "name": "Huile transfer",
+      "description": "Huiles pour boîtes transfer 4x4.",
+      "image": ""
+    },
+    {
+      "slug": "liquide-frein-dot51",
+      "name": "Liquide de frein DOT 5.1",
+      "description": "Liquides de frein DOT 5.1.",
+      "image": ""
+    },
+    {
+      "slug": "antigel-concentre",
+      "name": "Antigel concentré",
+      "description": "Antigel à diluer.",
+      "image": ""
+    },
+    {
+      "slug": "huile-compresseur-clim",
+      "name": "Huile compresseur clim",
+      "description": "Huiles pour compresseurs climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "fluide-embrayage",
+      "name": "Fluide d’embrayage",
+      "description": "Fluides hydrauliques d’embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "lave-glace-concentre",
+      "name": "Lave-glace concentré",
+      "description": "Concentrés lave-glace toutes saisons.",
+      "image": ""
+    }
+  ],
+  "demarrage-charge": [
+    {
+      "slug": "batteries-demarrage",
+      "name": "Batteries de démarrage",
+      "description": "Batteries 12V et 24V pour véhicules.",
+      "image": ""
+    },
+    {
+      "slug": "alternateur",
+      "name": "Alternateur",
+      "description": "Alternateurs neufs et reconditionnés.",
+      "image": ""
+    },
+    {
+      "slug": "demarreur",
+      "name": "Démarreur",
+      "description": "Démarreurs pour essence et diesel.",
+      "image": ""
+    },
+    {
+      "slug": "cosses-batterie",
+      "name": "Cosses et câbles batterie",
+      "description": "Cosses, câbles et accessoires batterie.",
+      "image": ""
+    },
+    {
+      "slug": "regulateur-tension",
+      "name": "Régulateur de tension",
+      "description": "Régulateurs et pièces alternateur.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-alternateur",
+      "name": "Poulie alternateur",
+      "description": "Poulies libres et damper alternateur.",
+      "image": ""
+    },
+    {
+      "slug": "support-batterie",
+      "name": "Support batterie",
+      "description": "Fixations et cales batterie.",
+      "image": ""
+    },
+    {
+      "slug": "chargeur-batterie",
+      "name": "Chargeur de batterie",
+      "description": "Chargeurs et boosters.",
+      "image": ""
+    },
+    {
+      "slug": "relais-demarrage",
+      "name": "Relais de démarrage",
+      "description": "Relais et solénoïdes démarreur.",
+      "image": ""
+    },
+    {
+      "slug": "bague-collectrice",
+      "name": "Bague collectrice",
+      "description": "Bagues et charbons démarreur.",
+      "image": ""
+    },
+    {
+      "slug": "courroie-alternateur",
+      "name": "Courroie alternateur",
+      "description": "Courroies d’accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "galet-tendeur",
+      "name": "Galet tendeur",
+      "description": "Galets tendeurs et enrouleurs.",
+      "image": ""
+    },
+    {
+      "slug": "testeur-batterie",
+      "name": "Testeur batterie",
+      "description": "Testeurs et analyseurs batterie.",
+      "image": ""
+    },
+    {
+      "slug": "interrupteur-contact",
+      "name": "Interrupteur de contact",
+      "description": "Neiman et interrupteurs contact.",
+      "image": ""
+    },
+    {
+      "slug": "cablage-alternateur",
+      "name": "Câblage alternateur",
+      "description": "Faisceaux et connecteurs alternateur.",
+      "image": ""
+    },
+    {
+      "slug": "pignon-demarreur",
+      "name": "Pignon de démarreur",
+      "description": "Pignons Bendix et pièces démarreur.",
+      "image": ""
+    },
+    {
+      "slug": "inducteur-alternateur",
+      "name": "Inducteur alternateur",
+      "description": "Rotors et stators alternateur.",
+      "image": ""
+    },
+    {
+      "slug": "diode-alternateur",
+      "name": "Diode alternateur",
+      "description": "Ponts de diodes alternateur.",
+      "image": ""
+    },
+    {
+      "slug": "kit-courroie-accessoires",
+      "name": "Kit courroie accessoires",
+      "description": "Kits courroie + galets.",
+      "image": ""
+    },
+    {
+      "slug": "batterie-start-stop",
+      "name": "Batterie Start-Stop",
+      "description": "Batteries AGM et EFB.",
+      "image": ""
+    }
+  ],
+  "allumage-prechauffage": [
+    {
+      "slug": "bougies-allumage",
+      "name": "Bougies d’allumage",
+      "description": "Bougies essence standard et iridium.",
+      "image": ""
+    },
+    {
+      "slug": "bobines-allumage",
+      "name": "Bobines d’allumage",
+      "description": "Bobines individuelles et packs.",
+      "image": ""
+    },
+    {
+      "slug": "cables-bougies",
+      "name": "Câbles de bougies",
+      "description": "Fils et faisceaux d’allumage.",
+      "image": ""
+    },
+    {
+      "slug": "delco-allumage",
+      "name": "Delco / distributeur",
+      "description": "Distributeurs et capots delco.",
+      "image": ""
+    },
+    {
+      "slug": "bougie-prechauffage",
+      "name": "Bougies de préchauffage",
+      "description": "Bougies de préchauffage diesel.",
+      "image": ""
+    },
+    {
+      "slug": "module-allumage",
+      "name": "Module d’allumage",
+      "description": "Modules électroniques d’allumage.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-vilebrequin",
+      "name": "Capteur vilebrequin",
+      "description": "Capteurs PMH et régime moteur.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-arbre-a-cames",
+      "name": "Capteur arbre à cames",
+      "description": "Capteurs position AAC.",
+      "image": ""
+    },
+    {
+      "slug": "relais-prechauffage",
+      "name": "Relais de préchauffage",
+      "description": "Relais et unités préchauffage.",
+      "image": ""
+    },
+    {
+      "slug": "tete-allumeur",
+      "name": "Tête d’allumeur",
+      "description": "Doigts et têtes distributeur.",
+      "image": ""
+    },
+    {
+      "slug": "condensateur-allumage",
+      "name": "Condensateur allumage",
+      "description": "Condensateurs et composants delco.",
+      "image": ""
+    },
+    {
+      "slug": "bougie-r6",
+      "name": "Bougies longue portée",
+      "description": "Bougies iridium et platine.",
+      "image": ""
+    },
+    {
+      "slug": "kit-distribution-allumage",
+      "name": "Kit distribution allumage",
+      "description": "Kits entretien allumage complets.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-cliquetis",
+      "name": "Capteur de cliquetis",
+      "description": "Capteurs anti-détonation.",
+      "image": ""
+    },
+    {
+      "slug": "calculateur-allumage",
+      "name": "Calculateur allumage",
+      "description": "Boîtiers électroniques allumage.",
+      "image": ""
+    },
+    {
+      "slug": "antiparasites",
+      "name": "Antiparasites",
+      "description": "Résistances et antiparasites.",
+      "image": ""
+    },
+    {
+      "slug": "support-bobine",
+      "name": "Support bobine",
+      "description": "Fixations et supports bobines.",
+      "image": ""
+    },
+    {
+      "slug": "joint-bougie",
+      "name": "Joint de bougie",
+      "description": "Joints et bagues bougies.",
+      "image": ""
+    },
+    {
+      "slug": "releveur-contact",
+      "name": "Relèveur de contact",
+      "description": "Relèveurs distributeur.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-prechauffage",
+      "name": "Sonde préchauffage",
+      "description": "Capteurs température préchauffage.",
+      "image": ""
+    }
+  ],
+  "filtres": [
+    {
+      "slug": "filtre-huile",
+      "name": "Filtre à huile",
+      "description": "Filtres à huile moteur.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-air",
+      "name": "Filtre à air",
+      "description": "Filtres à air moteur.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-carburant",
+      "name": "Filtre à carburant",
+      "description": "Filtres essence et diesel.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-habitacle",
+      "name": "Filtre habitacle",
+      "description": "Filtres pollen et charbon actif.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-gazoil",
+      "name": "Filtre gasoil",
+      "description": "Filtres diesel et séparateurs eau.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-hydraulique",
+      "name": "Filtre hydraulique",
+      "description": "Filtres direction et hydraulique.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-boite-auto",
+      "name": "Filtre boîte auto",
+      "description": "Filtres boîte automatique.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-adblue",
+      "name": "Filtre AdBlue",
+      "description": "Filtres système AdBlue.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-transmission",
+      "name": "Filtre transmission",
+      "description": "Filtres huile transmission.",
+      "image": ""
+    },
+    {
+      "slug": "cartouche-filtre-air",
+      "name": "Cartouche filtre air",
+      "description": "Cartouches et inserts filtre air.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-compresseur-clim",
+      "name": "Filtre compresseur clim",
+      "description": "Filtres déshydrateurs clim.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-lubrification",
+      "name": "Filtre lubrification",
+      "description": "Filtres circuit huile.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-retour-carburant",
+      "name": "Filtre retour carburant",
+      "description": "Filtres retour rampe injection.",
+      "image": ""
+    },
+    {
+      "slug": "kit-filtres-entretien",
+      "name": "Kit filtres entretien",
+      "description": "Kits filtres huile, air, habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-reservoir",
+      "name": "Filtre réservoir",
+      "description": "Crépines et filtres réservoir.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-urée",
+      "name": "Filtre urée",
+      "description": "Filtres système SCR.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-air-sport",
+      "name": "Filtre air sport",
+      "description": "Filtres air performance.",
+      "image": ""
+    },
+    {
+      "slug": "joint-filtre-huile",
+      "name": "Joint filtre huile",
+      "description": "Joints et bagues filtre huile.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-ventilation-carter",
+      "name": "Filtre ventilation carter",
+      "description": "Filtres séparation huile air.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-lpg",
+      "name": "Filtre GPL",
+      "description": "Filtres gaz et phases liquides.",
+      "image": ""
+    }
+  ],
+  "freinage": [
+    {
+      "slug": "plaquettes-frein",
+      "name": "Plaquettes de frein",
+      "description": "Plaquettes avant et arrière pour tous types de véhicules.",
+      "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "disques-frein",
+      "name": "Disques de frein",
+      "description": "Disques pleins, ventilés et percés.",
+      "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "disque-de-frein-perfore",
+      "name": "Disque de frein perforé",
+      "description": "Disques perforés haute performance.",
+      "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "disques-frein-ventiles",
+      "name": "Disques de frein ventilés",
+      "description": "Disques ventilés pour un refroidissement optimal.",
+      "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "etriers",
+      "name": "Étriers de frein",
+      "description": "Étriers avant, arrière et pièces associées.",
+      "image": "https://images.unsplash.com/photo-1760317890314-e964ffd7e6a6?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "kit-reparation-etrier",
+      "name": "Kit de réparation étrier",
+      "description": "Joints, pistons et kits de remise en état.",
+      "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "liquide-frein",
+      "name": "Liquide de frein",
+      "description": "Liquides DOT 3, DOT 4 et DOT 5.1.",
+      "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "flexibles-frein",
+      "name": "Flexibles de frein",
+      "description": "Durites et flexibles hydrauliques.",
+      "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "tambours-frein",
+      "name": "Tambours de frein",
+      "description": "Tambours pour freins à tambour.",
+      "image": "https://images.unsplash.com/photo-1753183700294-a2dbeb81e168?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "machoires-frein",
+      "name": "Mâchoires de frein",
+      "description": "Mâchoires et garnitures pour tambours.",
+      "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "cylindres-roue",
+      "name": "Cylindres de roue",
+      "description": "Cylindres de roue et kits de réparation.",
+      "image": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "maitre-cylindre",
+      "name": "Maître-cylindre",
+      "description": "Maîtres-cylindres et kits de réparation.",
+      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "servo-frein",
+      "name": "Servo-frein",
+      "description": "Servofreins et assistances de freinage.",
+      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "pompe-vide",
+      "name": "Pompe à vide",
+      "description": "Pompes à vide pour assistance au freinage.",
+      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "abs",
+      "name": "Système ABS",
+      "description": "Blocs ABS, calculateurs et modules.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "capteurs-abs",
+      "name": "Capteurs ABS",
+      "description": "Capteurs de vitesse de roue ABS.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "kit-frein",
+      "name": "Kit de frein complet",
+      "description": "Kits plaquettes + disques prêts à monter.",
+      "image": "https://images.unsplash.com/photo-1753183700294-a2dbeb81e168?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "garnitures-frein",
+      "name": "Garnitures de frein",
+      "description": "Garnitures pour freins à tambour.",
+      "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "ressorts-clips-plaquettes",
+      "name": "Ressorts et clips plaquettes",
+      "description": "Accessoires de montage pour plaquettes.",
+      "image": "https://images.unsplash.com/photo-1760317890322-364a810cd4da?w=600&h=400&fit=crop"
+    },
+    {
+      "slug": "temoins-frein",
+      "name": "Témoins et capteurs d'usure",
+      "description": "Capteurs d'usure et témoins de frein.",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop"
+    }
+  ],
+  "amortissement": [
+    {
+      "slug": "amortisseurs",
+      "name": "Amortisseurs",
+      "description": "Amortisseurs avant et arrière.",
+      "image": ""
+    },
+    {
+      "slug": "amortisseurs-gaz",
+      "name": "Amortisseurs gaz",
+      "description": "Amortisseurs à gaz pressurisé.",
+      "image": ""
+    },
+    {
+      "slug": "amortisseurs-huile",
+      "name": "Amortisseurs huile",
+      "description": "Amortisseurs hydrauliques classiques.",
+      "image": ""
+    },
+    {
+      "slug": "kit-amortisseurs",
+      "name": "Kit amortisseurs",
+      "description": "Kits amortisseurs + coupelles.",
+      "image": ""
+    },
+    {
+      "slug": "coupelle-amortisseur",
+      "name": "Coupelle amortisseur",
+      "description": "Coupelles et butées amortisseur.",
+      "image": ""
+    },
+    {
+      "slug": "butee-amortisseur",
+      "name": "Butée amortisseur",
+      "description": "Butées élastiques et mécaniques.",
+      "image": ""
+    },
+    {
+      "slug": "soufflet-amortisseur",
+      "name": "Soufflet amortisseur",
+      "description": "Soufflets de protection.",
+      "image": ""
+    },
+    {
+      "slug": "ressort-suspension",
+      "name": "Ressort de suspension",
+      "description": "Ressorts hélicoïdaux.",
+      "image": ""
+    },
+    {
+      "slug": "kit-suspension-complete",
+      "name": "Kit suspension complète",
+      "description": "Kits ressorts + amortisseurs.",
+      "image": ""
+    },
+    {
+      "slug": "barre-stabilisatrice",
+      "name": "Barre stabilisatrice",
+      "description": "Barres anti-roulis.",
+      "image": ""
+    },
+    {
+      "slug": "biellette-stabilisateur",
+      "name": "Biellette stabilisateur",
+      "description": "Biellettes et rotules barre.",
+      "image": ""
+    },
+    {
+      "slug": "support-amortisseur",
+      "name": "Support amortisseur",
+      "description": "Supports et logements amortisseur.",
+      "image": ""
+    },
+    {
+      "slug": "spacer-ressort",
+      "name": "Cale ressort",
+      "description": "Cales et entretoises ressort.",
+      "image": ""
+    },
+    {
+      "slug": "amortisseur-sport",
+      "name": "Amortisseur sport",
+      "description": "Amortisseurs réglables et sport.",
+      "image": ""
+    },
+    {
+      "slug": "kit-reparation-amortisseur",
+      "name": "Kit réparation amortisseur",
+      "description": "Joints et pièces reconditionnement.",
+      "image": ""
+    },
+    {
+      "slug": "capuchon-poussiere",
+      "name": "Capuchon anti-poussière",
+      "description": "Cache poussière suspension.",
+      "image": ""
+    },
+    {
+      "slug": "entretoise-ressort",
+      "name": "Entretoise ressort",
+      "description": "Entretoises abaissement et relevage.",
+      "image": ""
+    },
+    {
+      "slug": "silent-bloc-barre",
+      "name": "Silent-bloc barre",
+      "description": "Silent-blocs barre stabilisatrice.",
+      "image": ""
+    },
+    {
+      "slug": "kit-coupelles",
+      "name": "Kit coupelles",
+      "description": "Kits coupelles avant/arrière.",
+      "image": ""
+    },
+    {
+      "slug": "amortisseur-utilitaire",
+      "name": "Amortisseur utilitaire",
+      "description": "Amortisseurs véhicules utilitaires.",
+      "image": ""
+    }
+  ],
+  "suspension-roue": [
+    {
+      "slug": "silent-blocs",
+      "name": "Silent-blocs",
+      "description": "Silent-blocs bras et barres.",
+      "image": ""
+    },
+    {
+      "slug": "rotules",
+      "name": "Rotules de suspension",
+      "description": "Rotules axiales et radiales.",
+      "image": ""
+    },
+    {
+      "slug": "bras-suspension",
+      "name": "Bras de suspension",
+      "description": "Bras triangulaires et transversaux.",
+      "image": ""
+    },
+    {
+      "slug": "triangle-suspension",
+      "name": "Triangle suspension",
+      "description": "Triangles inférieurs et supérieurs.",
+      "image": ""
+    },
+    {
+      "slug": "roulement-roue",
+      "name": "Roulement de roue",
+      "description": "Roulements et kits roulement.",
+      "image": ""
+    },
+    {
+      "slug": "moyeu-roue",
+      "name": "Moyeu de roue",
+      "description": "Moyeux et flasques.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-axiale",
+      "name": "Rotule axiale",
+      "description": "Rotules biellette direction.",
+      "image": ""
+    },
+    {
+      "slug": "biellette-barre",
+      "name": "Biellette de barre",
+      "description": "Biellettes stabilisateur.",
+      "image": ""
+    },
+    {
+      "slug": "support-roulement",
+      "name": "Support roulement",
+      "description": "Maisons de roulement.",
+      "image": ""
+    },
+    {
+      "slug": "axe-suspension",
+      "name": "Axe de suspension",
+      "description": "Axes et boulons suspension.",
+      "image": ""
+    },
+    {
+      "slug": "corps-essieu",
+      "name": "Corps d’essieu",
+      "description": "Bras poussée et corps essieu.",
+      "image": ""
+    },
+    {
+      "slug": "kit-suspension-roue",
+      "name": "Kit suspension roue",
+      "description": "Kits bras + rotules + silent-blocs.",
+      "image": ""
+    },
+    {
+      "slug": "ecrou-roue",
+      "name": "Écrou de roue",
+      "description": "Écrous et boulons roue.",
+      "image": ""
+    },
+    {
+      "slug": "entretoise-roue",
+      "name": "Entretoise roue",
+      "description": "Entretoises et cales roue.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-abs-roue",
+      "name": "Capteur ABS roue",
+      "description": "Capteurs intégrés moyeu.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-inferieure",
+      "name": "Rotule inférieure",
+      "description": "Rotules bras inférieur.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-superieure",
+      "name": "Rotule supérieure",
+      "description": "Rotules bras supérieur.",
+      "image": ""
+    },
+    {
+      "slug": "support-bras",
+      "name": "Support de bras",
+      "description": "Supports châssis bras suspension.",
+      "image": ""
+    },
+    {
+      "slug": "bague-suspension",
+      "name": "Bague suspension",
+      "description": "Bagues et coussinets bras.",
+      "image": ""
+    },
+    {
+      "slug": "kit-geometrie",
+      "name": "Kit géométrie",
+      "description": "Cales réglage parallélisme.",
+      "image": ""
+    }
+  ],
+  "direction": [
+    {
+      "slug": "cremaillere-direction",
+      "name": "Crémaillère de direction",
+      "description": "Crémaillères complètes et pièces.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-direction",
+      "name": "Rotule de direction",
+      "description": "Rotules intérieures et extérieures.",
+      "image": ""
+    },
+    {
+      "slug": "biellette-direction",
+      "name": "Biellette de direction",
+      "description": "Biellettes et biellettes axiales.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-direction",
+      "name": "Pompe direction assistée",
+      "description": "Pompes hydrauliques direction.",
+      "image": ""
+    },
+    {
+      "slug": "liquide-direction",
+      "name": "Liquide direction assistée",
+      "description": "Fluides direction hydraulique.",
+      "image": ""
+    },
+    {
+      "slug": "flexible-direction",
+      "name": "Flexible direction",
+      "description": "Durites direction assistée.",
+      "image": ""
+    },
+    {
+      "slug": "colonne-direction",
+      "name": "Colonne de direction",
+      "description": "Colonnes et cardans direction.",
+      "image": ""
+    },
+    {
+      "slug": "volant-direction",
+      "name": "Volant direction",
+      "description": "Volants et moyeux volant.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-angle-volant",
+      "name": "Capteur angle volant",
+      "description": "Capteurs ESP et angle volant.",
+      "image": ""
+    },
+    {
+      "slug": "servo-direction",
+      "name": "Servo-direction",
+      "description": "Servodirections électriques.",
+      "image": ""
+    },
+    {
+      "slug": "joint-soufflet-direction",
+      "name": "Soufflet direction",
+      "description": "Soufflets crémaillère.",
+      "image": ""
+    },
+    {
+      "slug": "support-cremaillere",
+      "name": "Support crémaillère",
+      "description": "Fixations crémaillère.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-axiale-direction",
+      "name": "Rotule axiale direction",
+      "description": "Rotules biellettes direction.",
+      "image": ""
+    },
+    {
+      "slug": "biellette-intermediaire",
+      "name": "Biellette intermédiaire",
+      "description": "Biellettes intermédiaires direction.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-pompe-direction",
+      "name": "Poulie pompe direction",
+      "description": "Poulies pompe direction assistée.",
+      "image": ""
+    },
+    {
+      "slug": "reservoir-direction",
+      "name": "Réservoir direction",
+      "description": "Réservoirs liquide direction.",
+      "image": ""
+    },
+    {
+      "slug": "kit-reparation-cremaillere",
+      "name": "Kit réparation crémaillère",
+      "description": "Joints et kits crémaillère.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-couple-direction",
+      "name": "Capteur couple direction",
+      "description": "Capteurs assistance électrique.",
+      "image": ""
+    },
+    {
+      "slug": "rotule-barre",
+      "name": "Rotule barre stabilisateur",
+      "description": "Rotules liaison direction.",
+      "image": ""
+    },
+    {
+      "slug": "bague-colonne",
+      "name": "Bague colonne direction",
+      "description": "Bagues et roulements colonne.",
+      "image": ""
+    }
+  ],
+  "eclairage": [
+    {
+      "slug": "ampoules",
+      "name": "Ampoules",
+      "description": "Ampoules H1, H4, H7, LED et xénon.",
+      "image": ""
+    },
+    {
+      "slug": "phares",
+      "name": "Phares",
+      "description": "Optiques avant complets.",
+      "image": ""
+    },
+    {
+      "slug": "feux-arriere",
+      "name": "Feux arrière",
+      "description": "Feux arrière et lanternes.",
+      "image": ""
+    },
+    {
+      "slug": "feux-anti-brouillard",
+      "name": "Feux anti-brouillard",
+      "description": "Projecteurs antibrouillard.",
+      "image": ""
+    },
+    {
+      "slug": "feux-jour",
+      "name": "Feux de jour",
+      "description": "DRL et feux diurnes LED.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-plaque",
+      "name": "Éclairage plaque",
+      "description": "Feux éclaire-plaque.",
+      "image": ""
+    },
+    {
+      "slug": "feux-recul",
+      "name": "Feux de recul",
+      "description": "Feux et caméras recul.",
+      "image": ""
+    },
+    {
+      "slug": "clignotants",
+      "name": "Clignotants",
+      "description": "Clignotants avant et latéraux.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-interieur",
+      "name": "Éclairage intérieur",
+      "description": "Plafonniers et éclairages habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "kit-xenon",
+      "name": "Kit xénon",
+      "description": "Kits xénon et ballasts.",
+      "image": ""
+    },
+    {
+      "slug": "kit-led",
+      "name": "Kit LED",
+      "description": "Kits conversion LED.",
+      "image": ""
+    },
+    {
+      "slug": "projecteurs-additionnels",
+      "name": "Projecteurs additionnels",
+      "description": "Barres LED et projecteurs.",
+      "image": ""
+    },
+    {
+      "slug": "feux-stop",
+      "name": "Feux stop",
+      "description": "Troisièmes feux stop.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-coffre",
+      "name": "Éclairage coffre",
+      "description": "Lampes coffre et hayon.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-lumiere",
+      "name": "Capteur de lumière",
+      "description": "Capteurs auto allumage feux.",
+      "image": ""
+    },
+    {
+      "slug": "moteur-reglage-phare",
+      "name": "Moteur réglage phare",
+      "description": "Moteurs réglage hauteur phare.",
+      "image": ""
+    },
+    {
+      "slug": "cache-phare",
+      "name": "Cache phare",
+      "description": "Caches et grilles phare.",
+      "image": ""
+    },
+    {
+      "slug": "support-ampoule",
+      "name": "Support ampoule",
+      "description": "Douilles et supports optiques.",
+      "image": ""
+    },
+    {
+      "slug": "feux-position",
+      "name": "Feux de position",
+      "description": "Feux veilleuses et position.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-tableau",
+      "name": "Éclairage tableau de bord",
+      "description": "Éclairages instruments.",
+      "image": ""
+    }
+  ],
+  "carrosserie": [
+    {
+      "slug": "pare-chocs-avant",
+      "name": "Pare-chocs avant",
+      "description": "Pare-chocs et spoilers avant.",
+      "image": ""
+    },
+    {
+      "slug": "pare-chocs-arriere",
+      "name": "Pare-chocs arrière",
+      "description": "Pare-chocs arrière et diffuseurs.",
+      "image": ""
+    },
+    {
+      "slug": "aile-avant",
+      "name": "Aile avant",
+      "description": "Ailes avant gauche et droite.",
+      "image": ""
+    },
+    {
+      "slug": "aile-arriere",
+      "name": "Aile arrière",
+      "description": "Ailes arrière et extensions.",
+      "image": ""
+    },
+    {
+      "slug": "capot",
+      "name": "Capot",
+      "description": "Capots moteur.",
+      "image": ""
+    },
+    {
+      "slug": "coffre-hayon",
+      "name": "Coffre / hayon",
+      "description": "Hayons, coffres et vérins.",
+      "image": ""
+    },
+    {
+      "slug": "portiere",
+      "name": "Portière",
+      "description": "Portes et éléments portières.",
+      "image": ""
+    },
+    {
+      "slug": "retroviseur",
+      "name": "Rétroviseur",
+      "description": "Rétroviseurs extérieurs et intérieurs.",
+      "image": ""
+    },
+    {
+      "slug": "grille-calandre",
+      "name": "Grille / calandre",
+      "description": "Calandres et grilles avant.",
+      "image": ""
+    },
+    {
+      "slug": "bas-de-caisse",
+      "name": "Bas de caisse",
+      "description": "Jupes latérales et bas de caisse.",
+      "image": ""
+    },
+    {
+      "slug": "passage-roue",
+      "name": "Passage de roue",
+      "description": "Garnitures passage de roue.",
+      "image": ""
+    },
+    {
+      "slug": "montant-porte",
+      "name": "Montant de porte",
+      "description": "Montants et piliers carrosserie.",
+      "image": ""
+    },
+    {
+      "slug": "vitrage-lateral",
+      "name": "Vitrage latéral",
+      "description": "Vitres latérales et custodes.",
+      "image": ""
+    },
+    {
+      "slug": "pare-brise",
+      "name": "Pare-brise",
+      "description": "Pare-brise et joints.",
+      "image": ""
+    },
+    {
+      "slug": "lunette-arriere",
+      "name": "Lunette arrière",
+      "description": "Lunettes arrière et joints.",
+      "image": ""
+    },
+    {
+      "slug": "baguette-carrosserie",
+      "name": "Baguette carrosserie",
+      "description": "Baguettes et moulures.",
+      "image": ""
+    },
+    {
+      "slug": "support-pare-chocs",
+      "name": "Support pare-chocs",
+      "description": "Supports et armatures pare-chocs.",
+      "image": ""
+    },
+    {
+      "slug": "trappe-reservoir",
+      "name": "Trappe réservoir",
+      "description": "Trappes à carburant.",
+      "image": ""
+    },
+    {
+      "slug": "poignee-porte",
+      "name": "Poignée de porte",
+      "description": "Poignées extérieures et intérieures.",
+      "image": ""
+    },
+    {
+      "slug": "verin-hayon",
+      "name": "Vérin hayon",
+      "description": "Vérins coffre et hayon.",
+      "image": ""
+    }
+  ],
+  "courroies-chaines": [
+    {
+      "slug": "courroie-accessoires",
+      "name": "Courroie accessoires",
+      "description": "Courroies alternateur et accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "courroie-distribution",
+      "name": "Courroie distribution",
+      "description": "Courroies de distribution.",
+      "image": ""
+    },
+    {
+      "slug": "kit-courroie-distribution",
+      "name": "Kit courroie distribution",
+      "description": "Kits courroie + galets distribution.",
+      "image": ""
+    },
+    {
+      "slug": "chaine-distribution",
+      "name": "Chaîne distribution",
+      "description": "Chaînes de distribution.",
+      "image": ""
+    },
+    {
+      "slug": "kit-chaine-distribution",
+      "name": "Kit chaîne distribution",
+      "description": "Kits chaîne + tendeurs.",
+      "image": ""
+    },
+    {
+      "slug": "galet-enrouleur",
+      "name": "Galet enrouleur",
+      "description": "Galets enrouleurs distribution.",
+      "image": ""
+    },
+    {
+      "slug": "galet-tendeur-distribution",
+      "name": "Galet tendeur distribution",
+      "description": "Galets tendeurs distribution.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-vilebrequin",
+      "name": "Poulie vilebrequin",
+      "description": "Poulies damper vilebrequin.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-arbre-a-cames",
+      "name": "Poulie arbre à cames",
+      "description": "Poulies AAC et variable.",
+      "image": ""
+    },
+    {
+      "slug": "tendeur-chaine",
+      "name": "Tendeur chaîne",
+      "description": "Tendeurs chaîne distribution.",
+      "image": ""
+    },
+    {
+      "slug": "guide-chaine",
+      "name": "Guide chaîne",
+      "description": "Guides et rails chaîne.",
+      "image": ""
+    },
+    {
+      "slug": "courroie-poly-v",
+      "name": "Courroie Poly-V",
+      "description": "Courroies trapézoïdales multi-nervures.",
+      "image": ""
+    },
+    {
+      "slug": "kit-courroie-accessoires",
+      "name": "Kit courroie accessoires",
+      "description": "Kits courroie + galets accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-alternateur-courroie",
+      "name": "Poulie alternateur courroie",
+      "description": "Poulies courroie accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-pompe-direction",
+      "name": "Poulie pompe direction",
+      "description": "Poulies pompe direction assistée.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-pompe-eau",
+      "name": "Poulie pompe à eau",
+      "description": "Poulies pompe à eau.",
+      "image": ""
+    },
+    {
+      "slug": "joint-spi-courroie",
+      "name": "Joint SPI distribution",
+      "description": "Joints couvercle distribution.",
+      "image": ""
+    },
+    {
+      "slug": "outil-calage-distribution",
+      "name": "Outil calage distribution",
+      "description": "Outils calage distribution.",
+      "image": ""
+    },
+    {
+      "slug": "courroie-balancier",
+      "name": "Courroie balancier",
+      "description": "Courroies balanciers moteur.",
+      "image": ""
+    },
+    {
+      "slug": "kit-pompe-eau-distribution",
+      "name": "Kit pompe eau + distribution",
+      "description": "Kits distribution avec pompe à eau.",
+      "image": ""
+    }
+  ],
+  "distribution-moteur": [
+    {
+      "slug": "distribution",
+      "name": "Distribution",
+      "description": "Kits distribution complets.",
+      "image": ""
+    },
+    {
+      "slug": "kit-distribution-courroie",
+      "name": "Kit distribution courroie",
+      "description": "Kits courroie distribution.",
+      "image": ""
+    },
+    {
+      "slug": "kit-distribution-chaine",
+      "name": "Kit distribution chaîne",
+      "description": "Kits chaîne distribution.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-eau",
+      "name": "Pompe à eau",
+      "description": "Pompes à eau mécaniques et électriques.",
+      "image": ""
+    },
+    {
+      "slug": "galet-distribution",
+      "name": "Galet distribution",
+      "description": "Galets distribution.",
+      "image": ""
+    },
+    {
+      "slug": "tendeur-distribution",
+      "name": "Tendeur distribution",
+      "description": "Tendeurs courroie et chaîne.",
+      "image": ""
+    },
+    {
+      "slug": "joint-carter-distribution",
+      "name": "Joint carter distribution",
+      "description": "Joints couvercle distribution.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-distribution",
+      "name": "Poulie distribution",
+      "description": "Poulies distribution moteur.",
+      "image": ""
+    },
+    {
+      "slug": "courroie-distribution-moteur",
+      "name": "Courroie distribution moteur",
+      "description": "Courroies crantées distribution.",
+      "image": ""
+    },
+    {
+      "slug": "chaine-distribution-moteur",
+      "name": "Chaîne distribution moteur",
+      "description": "Chaînes crantées distribution.",
+      "image": ""
+    },
+    {
+      "slug": "guide-chaine-distribution",
+      "name": "Guide chaîne distribution",
+      "description": "Guides chaîne moteur.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-distribution",
+      "name": "Kit joints distribution",
+      "description": "Joints kit distribution.",
+      "image": ""
+    },
+    {
+      "slug": "vis-distribution",
+      "name": "Vis distribution",
+      "description": "Vis et boulons distribution.",
+      "image": ""
+    },
+    {
+      "slug": "outil-distribution",
+      "name": "Outil distribution",
+      "description": "Outils calage moteur.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-arbre-cames-distribution",
+      "name": "Capteur AAC distribution",
+      "description": "Capteurs position distribution.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-eau-kit-distribution",
+      "name": "Pompe eau kit distribution",
+      "description": "Pompes à eau avec kit.",
+      "image": ""
+    },
+    {
+      "slug": "carter-distribution",
+      "name": "Carter distribution",
+      "description": "Carters couvercle distribution.",
+      "image": ""
+    },
+    {
+      "slug": "joint-spi-vilebrequin",
+      "name": "Joint SPI vilebrequin",
+      "description": "Joints vilebrequin distribution.",
+      "image": ""
+    },
+    {
+      "slug": "bague-etancheite-distribution",
+      "name": "Bague étanchéité distribution",
+      "description": "Bagues étanchéité arbre.",
+      "image": ""
+    },
+    {
+      "slug": "kit-entretien-distribution",
+      "name": "Kit entretien distribution",
+      "description": "Kits entretien périodique distribution.",
+      "image": ""
+    }
+  ],
+  "embrayage": [
+    {
+      "slug": "kit-embrayage",
+      "name": "Kit d’embrayage",
+      "description": "Kits disque + mécanisme + butée.",
+      "image": ""
+    },
+    {
+      "slug": "butee-embrayage",
+      "name": "Butée d’embrayage",
+      "description": "Butées hydrauliques et mécaniques.",
+      "image": ""
+    },
+    {
+      "slug": "disque-embrayage",
+      "name": "Disque d’embrayage",
+      "description": "Disques d’embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "mechanisme-embrayage",
+      "name": "Mécanisme d’embrayage",
+      "description": "Plateaux et mécanismes.",
+      "image": ""
+    },
+    {
+      "slug": "volant-moteur",
+      "name": "Volant moteur",
+      "description": "Volants moteur bimasse et monomasse.",
+      "image": ""
+    },
+    {
+      "slug": "cable-embrayage",
+      "name": "Câble d’embrayage",
+      "description": "Câbles commande embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "fourchette-embrayage",
+      "name": "Fourchette embrayage",
+      "description": "Fourchettes et leviers.",
+      "image": ""
+    },
+    {
+      "slug": "kit-reparation-butee",
+      "name": "Kit réparation butée",
+      "description": "Joints et kits butée.",
+      "image": ""
+    },
+    {
+      "slug": "emetteur-embrayage",
+      "name": "Émetteur embrayage",
+      "description": "Cylindres émetteurs.",
+      "image": ""
+    },
+    {
+      "slug": "recepteur-embrayage",
+      "name": "Récepteur embrayage",
+      "description": "Cylindres récepteurs.",
+      "image": ""
+    },
+    {
+      "slug": "flexible-embrayage",
+      "name": "Flexible embrayage",
+      "description": "Durites hydrauliques embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "butee-hydraulique",
+      "name": "Butée hydraulique",
+      "description": "Butées concentriques hydrauliques.",
+      "image": ""
+    },
+    {
+      "slug": "ressort-diaphragme",
+      "name": "Ressort diaphragme",
+      "description": "Ressorts mécanisme embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "butee-a-rotule",
+      "name": "Butée à rotule",
+      "description": "Butées mécaniques rotule.",
+      "image": ""
+    },
+    {
+      "slug": "guide-butee",
+      "name": "Guide butée",
+      "description": "Guides et bagues butée.",
+      "image": ""
+    },
+    {
+      "slug": "kit-volant-bimasse",
+      "name": "Kit volant bimasse",
+      "description": "Kits volant + embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pedale-embrayage",
+      "name": "Capteur pédale embrayage",
+      "description": "Capteurs pédale embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "pédale-embrayage",
+      "name": "Pédale embrayage",
+      "description": "Pédales et supports.",
+      "image": ""
+    },
+    {
+      "slug": "joint-spi-arbre-primaire",
+      "name": "Joint SPI arbre primaire",
+      "description": "Joints boîte embrayage.",
+      "image": ""
+    },
+    {
+      "slug": "kit-embrayage-renforce",
+      "name": "Kit embrayage renforcé",
+      "description": "Kits sport et utilitaire.",
+      "image": ""
+    }
+  ],
+  "boite-vitesses": [
+    {
+      "slug": "huile-boite",
+      "name": "Huile boîte",
+      "description": "Huiles boîte manuelle et auto.",
+      "image": ""
+    },
+    {
+      "slug": "synchroniseur",
+      "name": "Synchroniseur",
+      "description": "Synchroniseurs boîte manuelle.",
+      "image": ""
+    },
+    {
+      "slug": "fourchette-boite",
+      "name": "Fourchette boîte",
+      "description": "Fourchettes sélecteur boîte.",
+      "image": ""
+    },
+    {
+      "slug": "carter-boite",
+      "name": "Carter boîte",
+      "description": "Carters boîte de vitesses.",
+      "image": ""
+    },
+    {
+      "slug": "joint-boite",
+      "name": "Joint boîte",
+      "description": "Joints carter et couvercles boîte.",
+      "image": ""
+    },
+    {
+      "slug": "arbre-primaire",
+      "name": "Arbre primaire",
+      "description": "Arbres primaires boîte.",
+      "image": ""
+    },
+    {
+      "slug": "arbre-secondaire",
+      "name": "Arbre secondaire",
+      "description": "Arbres secondaires boîte.",
+      "image": ""
+    },
+    {
+      "slug": "pignon-boite",
+      "name": "Pignon boîte",
+      "description": "Pignons boîte manuelle.",
+      "image": ""
+    },
+    {
+      "slug": "roulement-boite",
+      "name": "Roulement boîte",
+      "description": "Roulements boîte vitesses.",
+      "image": ""
+    },
+    {
+      "slug": "bague-etancheite-boite",
+      "name": "Bague étanchéité boîte",
+      "description": "Bagues arbre boîte.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-vitesse-boite",
+      "name": "Capteur vitesse boîte",
+      "description": "Capteurs régime boîte.",
+      "image": ""
+    },
+    {
+      "slug": "selecteur-boite",
+      "name": "Sélecteur boîte",
+      "description": "Leviers et tringles sélecteur.",
+      "image": ""
+    },
+    {
+      "slug": "support-boite",
+      "name": "Support boîte",
+      "description": "Supports et silent-blocs boîte.",
+      "image": ""
+    },
+    {
+      "slug": "convertisseur-couple",
+      "name": "Convertisseur couple",
+      "description": "Convertisseurs boîte auto.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-boite-automatique",
+      "name": "Filtre boîte automatique",
+      "description": "Filtres boîte auto.",
+      "image": ""
+    },
+    {
+      "slug": "electrovanne-boite",
+      "name": "Électrovanne boîte",
+      "description": "Électrovannes boîte auto.",
+      "image": ""
+    },
+    {
+      "slug": "calculateur-boite",
+      "name": "Calculateur boîte",
+      "description": "Unités commande boîte auto.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-boite",
+      "name": "Kit joints boîte",
+      "description": "Kits joints réparation boîte.",
+      "image": ""
+    },
+    {
+      "slug": "cable-selecteur",
+      "name": "Câble sélecteur",
+      "description": "Câbles commande sélecteur.",
+      "image": ""
+    },
+    {
+      "slug": "palier-boite",
+      "name": "Palier boîte",
+      "description": "Paliers et bagues boîte.",
+      "image": ""
+    }
+  ],
+  "capteurs": [
+    {
+      "slug": "capteur-pression-huile",
+      "name": "Capteur pression huile",
+      "description": "Capteurs pression circuit huile.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-temperature-eau",
+      "name": "Capteur température eau",
+      "description": "Capteurs température liquide refroidissement.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-position-papillon",
+      "name": "Capteur papillon",
+      "description": "Capteurs position papillon.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-oxygene",
+      "name": "Capteur oxygène",
+      "description": "Sondes lambda avant et arrière.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pression-carburant",
+      "name": "Capteur pression carburant",
+      "description": "Capteurs rampe common rail.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-regime",
+      "name": "Capteur régime",
+      "description": "Capteurs PMH et régime moteur.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-abs",
+      "name": "Capteur ABS",
+      "description": "Capteurs vitesse roue ABS.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pression-pneu",
+      "name": "Capteur pression pneu",
+      "description": "Capteurs TPMS.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-stationnement",
+      "name": "Capteur stationnement",
+      "description": "Capteurs radar recul.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-niveau-huile",
+      "name": "Capteur niveau huile",
+      "description": "Capteurs niveau huile moteur.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-niveau-carburant",
+      "name": "Capteur niveau carburant",
+      "description": "Capteurs jauge carburant.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-arbre-cames",
+      "name": "Capteur arbre à cames",
+      "description": "Capteurs position AAC.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-cliquetis",
+      "name": "Capteur cliquetis",
+      "description": "Capteurs anti-détonation.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-air-admission",
+      "name": "Capteur air admission",
+      "description": "Capteurs débitmètre air.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-temperature-air",
+      "name": "Capteur température air",
+      "description": "Capteurs température admission.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pedale",
+      "name": "Capteur pédale",
+      "description": "Capteurs accélérateur et frein.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-qualite-air",
+      "name": "Capteur qualité air",
+      "description": "Capteurs qualité air admission.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-noX",
+      "name": "Capteur NOx",
+      "description": "Capteurs oxydes d’azote.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-particules",
+      "name": "Capteur particules",
+      "description": "Capteurs FAP/DPF.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-habitacle",
+      "name": "Capteur habitacle",
+      "description": "Capteurs température et luminosité habitacle.",
+      "image": ""
+    }
+  ],
+  "essuie-glace": [
+    {
+      "slug": "balai-essuie-glace",
+      "name": "Balai essuie-glace",
+      "description": "Balais avant et arrière.",
+      "image": ""
+    },
+    {
+      "slug": "moteur-essuie-glace",
+      "name": "Moteur essuie-glace",
+      "description": "Moteurs et mécanismes.",
+      "image": ""
+    },
+    {
+      "slug": "bras-essuie-glace",
+      "name": "Bras essuie-glace",
+      "description": "Bras et articulations.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-lave-glace",
+      "name": "Pompe lave-glace",
+      "description": "Pompes et moteurs lave-glace.",
+      "image": ""
+    },
+    {
+      "slug": "gicleur-lave-glace",
+      "name": "Gicleur lave-glace",
+      "description": "Buses lave-glace pare-brise.",
+      "image": ""
+    },
+    {
+      "slug": "reservoir-lave-glace",
+      "name": "Réservoir lave-glace",
+      "description": "Réservoirs lave-glace.",
+      "image": ""
+    },
+    {
+      "slug": "interrupteur-essuie-glace",
+      "name": "Interrupteur essuie-glace",
+      "description": "Commodo et interrupteurs.",
+      "image": ""
+    },
+    {
+      "slug": "relais-essuie-glace",
+      "name": "Relais essuie-glace",
+      "description": "Relais moteur essuie-glace.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pluie",
+      "name": "Capteur de pluie",
+      "description": "Capteurs pluie et luminosité.",
+      "image": ""
+    },
+    {
+      "slug": "balai-hiver",
+      "name": "Balai hiver",
+      "description": "Balais hiver renforcés.",
+      "image": ""
+    },
+    {
+      "slug": "balai-plat",
+      "name": "Balai plat",
+      "description": "Balais plats aérodynamiques.",
+      "image": ""
+    },
+    {
+      "slug": "kit-essuie-glace",
+      "name": "Kit essuie-glace",
+      "description": "Kits balais + adaptateurs.",
+      "image": ""
+    },
+    {
+      "slug": "adaptateur-balai",
+      "name": "Adaptateur balai",
+      "description": "Adaptateurs multi-fit.",
+      "image": ""
+    },
+    {
+      "slug": "tringle-essuie-glace",
+      "name": "Tringle essuie-glace",
+      "description": "Tringles et biellettes.",
+      "image": ""
+    },
+    {
+      "slug": "axe-moteur",
+      "name": "Axe moteur essuie-glace",
+      "description": "Axes moteur et paliers.",
+      "image": ""
+    },
+    {
+      "slug": "cablage-essuie-glace",
+      "name": "Câblage essuie-glace",
+      "description": "Faisceaux moteur essuie-glace.",
+      "image": ""
+    },
+    {
+      "slug": "cache-essuie-glace",
+      "name": "Cache essuie-glace",
+      "description": "Caches et coques bras.",
+      "image": ""
+    },
+    {
+      "slug": "essuie-glace-arriere",
+      "name": "Essuie-glace arrière",
+      "description": "Balais et moteurs arrière.",
+      "image": ""
+    },
+    {
+      "slug": "lave-phare",
+      "name": "Lave-phare",
+      "description": "Pompes et buses lave-phare.",
+      "image": ""
+    },
+    {
+      "slug": "joint-reservoir-lave-glace",
+      "name": "Joint réservoir lave-glace",
+      "description": "Joints bouchon réservoir.",
+      "image": ""
+    }
+  ],
+  "chauffage-climatisation": [
+    {
+      "slug": "compresseur-clim",
+      "name": "Compresseur climatisation",
+      "description": "Compresseurs clim neufs et reconditionnés.",
+      "image": ""
+    },
+    {
+      "slug": "condenseur-clim",
+      "name": "Condenseur clim",
+      "description": "Condenseurs climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "evaporateur-clim",
+      "name": "Évaporateur clim",
+      "description": "Évaporateurs climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "radiateur-chauffage",
+      "name": "Radiateur chauffage",
+      "description": "Radiateurs de chauffage habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "ventilateur-habitacle",
+      "name": "Ventilateur habitacle",
+      "description": "Moteurs ventilateur chauffage.",
+      "image": ""
+    },
+    {
+      "slug": "detendeur-clim",
+      "name": "Détendeur clim",
+      "description": "Détendeurs et valves expansion.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-habitacle-clim",
+      "name": "Filtre habitacle clim",
+      "description": "Filtres pollen climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-pression-clim",
+      "name": "Sonde pression clim",
+      "description": "Capteurs pression climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "gaz-refrigerant",
+      "name": "Gaz réfrigérant",
+      "description": "Fluides R134a et R1234yf.",
+      "image": ""
+    },
+    {
+      "slug": "huile-compresseur-clim",
+      "name": "Huile compresseur clim",
+      "description": "Huiles PAG et POE.",
+      "image": ""
+    },
+    {
+      "slug": "electrovanne-clim",
+      "name": "Électrovanne clim",
+      "description": "Électrovannes compresseur.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-compresseur",
+      "name": "Poulie compresseur",
+      "description": "Poulies embrayées compresseur.",
+      "image": ""
+    },
+    {
+      "slug": "joint-clim",
+      "name": "Joint clim",
+      "description": "Joints raccords climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "tuyauterie-clim",
+      "name": "Tuyauterie clim",
+      "description": "Durites haute et basse pression.",
+      "image": ""
+    },
+    {
+      "slug": "commande-clim",
+      "name": "Commande clim",
+      "description": "Panneaux commande climatisation.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-temperature-evaporateur",
+      "name": "Sonde température évaporateur",
+      "description": "Capteurs température clim.",
+      "image": ""
+    },
+    {
+      "slug": "resistance-ventilateur",
+      "name": "Résistance ventilateur",
+      "description": "Résistances vitesse ventilateur.",
+      "image": ""
+    },
+    {
+      "slug": "boucle-chauffage",
+      "name": "Boucle chauffage",
+      "description": "Durites chauffage moteur.",
+      "image": ""
+    },
+    {
+      "slug": "robinet-chauffage",
+      "name": "Robinet chauffage",
+      "description": "Robinet commande chauffage.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-compresseur",
+      "name": "Kit joints compresseur",
+      "description": "Joints compresseur clim.",
+      "image": ""
+    }
+  ],
+  "interieur-confort": [
+    {
+      "slug": "tapis-sol",
+      "name": "Tapis de sol",
+      "description": "Tapis avant, arrière et coffre.",
+      "image": ""
+    },
+    {
+      "slug": "housse-siege",
+      "name": "Housse de siège",
+      "description": "Housses protection sièges.",
+      "image": ""
+    },
+    {
+      "slug": "appui-tete",
+      "name": "Appui-tête",
+      "description": "Appui-têtes et accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "volant-interieur",
+      "name": "Volant intérieur",
+      "description": "Volants sport et cuir.",
+      "image": ""
+    },
+    {
+      "slug": "levier-vitesse",
+      "name": "Levier de vitesses",
+      "description": "Pommeaux et leviers.",
+      "image": ""
+    },
+    {
+      "slug": "frein-main",
+      "name": "Frein à main",
+      "description": "Leviers frein à main.",
+      "image": ""
+    },
+    {
+      "slug": "console-centrale",
+      "name": "Console centrale",
+      "description": "Consoles et rangements.",
+      "image": ""
+    },
+    {
+      "slug": "pare-soleil",
+      "name": "Pare-soleil",
+      "description": "Pare-soleil et extensions.",
+      "image": ""
+    },
+    {
+      "slug": "moquette-coffre",
+      "name": "Moquette coffre",
+      "description": "Tapis et habillages coffre.",
+      "image": ""
+    },
+    {
+      "slug": "filet-coffre",
+      "name": "Filet coffre",
+      "description": "Filets et séparateurs coffre.",
+      "image": ""
+    },
+    {
+      "slug": "organisateur-coffre",
+      "name": "Organisateur coffre",
+      "description": "Bacs et organiseurs.",
+      "image": ""
+    },
+    {
+      "slug": "support-telephone",
+      "name": "Support téléphone",
+      "description": "Supports smartphone voiture.",
+      "image": ""
+    },
+    {
+      "slug": "chargeur-allume-cigare",
+      "name": "Chargeur allume-cigare",
+      "description": "Chargeurs USB et allume-cigare.",
+      "image": ""
+    },
+    {
+      "slug": "habillage-pedalier",
+      "name": "Habillage pédalier",
+      "description": "Pédales aluminium et sport.",
+      "image": ""
+    },
+    {
+      "slug": "repose-pied",
+      "name": "Repose-pied",
+      "description": "Repose-pieds conducteur.",
+      "image": ""
+    },
+    {
+      "slug": "accoudoir",
+      "name": "Accoudoir",
+      "description": "Accoudoirs centrale et portières.",
+      "image": ""
+    },
+    {
+      "slug": "eclairage-ambiance",
+      "name": "Éclairage ambiance",
+      "description": "LED ambiance habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "cache-bagage",
+      "name": "Cache-bagage",
+      "description": "Caches bagages et rideaux.",
+      "image": ""
+    },
+    {
+      "slug": "garniture-porte",
+      "name": "Garniture porte",
+      "description": "Garnitures intérieures portières.",
+      "image": ""
+    },
+    {
+      "slug": "kit-confort-habitacle",
+      "name": "Kit confort habitacle",
+      "description": "Kits accessoires intérieur.",
+      "image": ""
+    }
+  ],
+  "pieces-moteur": [
+    {
+      "slug": "joint-culasse",
+      "name": "Joint de culasse",
+      "description": "Joints culasse multi-couches.",
+      "image": ""
+    },
+    {
+      "slug": "joint-carter",
+      "name": "Joint carter",
+      "description": "Joints carter huile et distribution.",
+      "image": ""
+    },
+    {
+      "slug": "piston",
+      "name": "Piston",
+      "description": "Pistons et segments.",
+      "image": ""
+    },
+    {
+      "slug": "bielle",
+      "name": "Bielle",
+      "description": "Bielles moteur.",
+      "image": ""
+    },
+    {
+      "slug": "vilebrequin",
+      "name": "Vilebrequin",
+      "description": "Vilebrequins et pièces associées.",
+      "image": ""
+    },
+    {
+      "slug": "chemise-cylindre",
+      "name": "Chemise cylindre",
+      "description": "Chemises et cylindres.",
+      "image": ""
+    },
+    {
+      "slug": "soupape",
+      "name": "Soupape",
+      "description": "Soupapes admission et échappement.",
+      "image": ""
+    },
+    {
+      "slug": "poussoir",
+      "name": "Poussoir",
+      "description": "Poussoirs hydrauliques et mécaniques.",
+      "image": ""
+    },
+    {
+      "slug": "arbre-a-cames",
+      "name": "Arbre à cames",
+      "description": "Arbres à cames complets.",
+      "image": ""
+    },
+    {
+      "slug": "culasse",
+      "name": "Culasse",
+      "description": "Culasses complètes et pièces.",
+      "image": ""
+    },
+    {
+      "slug": "carter-huile",
+      "name": "Carter huile",
+      "description": "Carters inférieurs moteur.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-huile",
+      "name": "Pompe à huile",
+      "description": "Pompes à huile mécaniques.",
+      "image": ""
+    },
+    {
+      "slug": "turbo",
+      "name": "Turbo",
+      "description": "Turbocompresseurs et pièces.",
+      "image": ""
+    },
+    {
+      "slug": "collecteur-admission",
+      "name": "Collecteur admission",
+      "description": "Collecteurs admission.",
+      "image": ""
+    },
+    {
+      "slug": "collecteur-echappement",
+      "name": "Collecteur échappement",
+      "description": "Collecteurs échappement.",
+      "image": ""
+    },
+    {
+      "slug": "cache-culbuteur",
+      "name": "Cache culbuteur",
+      "description": "Caches culbuteurs et joints.",
+      "image": ""
+    },
+    {
+      "slug": "guide-soupape",
+      "name": "Guide soupape",
+      "description": "Guides et sièges soupapes.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-carter",
+      "name": "Bouchon carter",
+      "description": "Bouchons vidange carter.",
+      "image": ""
+    },
+    {
+      "slug": "vis-culasse",
+      "name": "Vis culasse",
+      "description": "Vis et goujons culasse.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-moteur",
+      "name": "Kit joints moteur",
+      "description": "Kits joints complets moteur.",
+      "image": ""
+    }
+  ],
+  "transmission": [
+    {
+      "slug": "cardan",
+      "name": "Cardan",
+      "description": "Arbres de transmission et cardans.",
+      "image": ""
+    },
+    {
+      "slug": "joint-spi-transmission",
+      "name": "Joint SPI transmission",
+      "description": "Joints homocinétiques et SPI.",
+      "image": ""
+    },
+    {
+      "slug": "soufflet-cardan",
+      "name": "Soufflet cardan",
+      "description": "Soufflets transmission.",
+      "image": ""
+    },
+    {
+      "slug": "palier-transmission",
+      "name": "Palier transmission",
+      "description": "Paliers arbre de transmission.",
+      "image": ""
+    },
+    {
+      "slug": "arbre-transmission",
+      "name": "Arbre transmission",
+      "description": "Arbres avant et arrière.",
+      "image": ""
+    },
+    {
+      "slug": "boite-transfer",
+      "name": "Boîte transfer",
+      "description": "Boîtes transfer 4x4.",
+      "image": ""
+    },
+    {
+      "slug": "pont-arriere",
+      "name": "Pont arrière",
+      "description": "Ponts arrière et pièces.",
+      "image": ""
+    },
+    {
+      "slug": "pont-avant",
+      "name": "Pont avant",
+      "description": "Ponts avant 4x4.",
+      "image": ""
+    },
+    {
+      "slug": "crochet-cardan",
+      "name": "Crochet cardan",
+      "description": "Croisillons cardan.",
+      "image": ""
+    },
+    {
+      "slug": "flasque-transmission",
+      "name": "Flasque transmission",
+      "description": "Flasques et supports.",
+      "image": ""
+    },
+    {
+      "slug": "roulement-pont",
+      "name": "Roulement pont",
+      "description": "Roulements pont arrière.",
+      "image": ""
+    },
+    {
+      "slug": "couronne-pont",
+      "name": "Couronne pont",
+      "description": "Couronnes et pignons pont.",
+      "image": ""
+    },
+    {
+      "slug": "joint-pont",
+      "name": "Joint pont",
+      "description": "Joints carter pont.",
+      "image": ""
+    },
+    {
+      "slug": "huile-pont-transmission",
+      "name": "Huile pont transmission",
+      "description": "Huiles pont et transfer.",
+      "image": ""
+    },
+    {
+      "slug": "support-arbre",
+      "name": "Support arbre",
+      "description": "Supports arbre transmission.",
+      "image": ""
+    },
+    {
+      "slug": "bague-etancheite-arbre",
+      "name": "Bague étanchéité arbre",
+      "description": "Bagues arbre transmission.",
+      "image": ""
+    },
+    {
+      "slug": "kit-reparation-cardan",
+      "name": "Kit réparation cardan",
+      "description": "Kits réparation cardan.",
+      "image": ""
+    },
+    {
+      "slug": "vis-cardan",
+      "name": "Vis cardan",
+      "description": "Vis et boulons cardan.",
+      "image": ""
+    },
+    {
+      "slug": "demi-arbre",
+      "name": "Demi-arbre",
+      "description": "Demi-arbres transmission.",
+      "image": ""
+    },
+    {
+      "slug": "reducteur",
+      "name": "Réducteur",
+      "description": "Réducteurs et boîtes auxiliaires.",
+      "image": ""
+    }
+  ],
+  "refroidissement-moteur": [
+    {
+      "slug": "radiateur-moteur",
+      "name": "Radiateur moteur",
+      "description": "Radiateurs refroidissement moteur.",
+      "image": ""
+    },
+    {
+      "slug": "radiateur-chauffage-moteur",
+      "name": "Radiateur chauffage",
+      "description": "Radiateurs chauffage habitacle.",
+      "image": ""
+    },
+    {
+      "slug": "thermostat",
+      "name": "Thermostat",
+      "description": "Thermostats et boîtiers.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-eau-moteur",
+      "name": "Pompe à eau",
+      "description": "Pompes à eau mécaniques.",
+      "image": ""
+    },
+    {
+      "slug": "vase-expansion",
+      "name": "Vase expansion",
+      "description": "Vases expansion et bouchons.",
+      "image": ""
+    },
+    {
+      "slug": "ventilateur-radiateur",
+      "name": "Ventilateur radiateur",
+      "description": "Moteurs ventilateur radiateur.",
+      "image": ""
+    },
+    {
+      "slug": "durite-refroidissement",
+      "name": "Durite refroidissement",
+      "description": "Durites radiateur et chauffage.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-radiateur",
+      "name": "Bouchon radiateur",
+      "description": "Bouchons pression radiateur.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-temperature",
+      "name": "Sonde température",
+      "description": "Capteurs température liquide.",
+      "image": ""
+    },
+    {
+      "slug": "calorstat",
+      "name": "Calorstat",
+      "description": "Boîtiers thermostat.",
+      "image": ""
+    },
+    {
+      "slug": "radiateur-huile",
+      "name": "Radiateur huile",
+      "description": "Refroidisseurs huile moteur.",
+      "image": ""
+    },
+    {
+      "slug": "echangeur",
+      "name": "Échangeur",
+      "description": "Échangeurs eau/huile.",
+      "image": ""
+    },
+    {
+      "slug": "support-ventilateur",
+      "name": "Support ventilateur",
+      "description": "Carters ventilateur.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-niveau-liquide",
+      "name": "Sonde niveau liquide",
+      "description": "Capteurs niveau expansion.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-vase",
+      "name": "Bouchon vase expansion",
+      "description": "Bouchons vase expansion.",
+      "image": ""
+    },
+    {
+      "slug": "collier-durite",
+      "name": "Collier durite",
+      "description": "Colliers et raccords durites.",
+      "image": ""
+    },
+    {
+      "slug": "radiateur-intercooler",
+      "name": "Radiateur intercooler",
+      "description": "Intercoolers suralimentation.",
+      "image": ""
+    },
+    {
+      "slug": "joint-radiateur",
+      "name": "Joint radiateur",
+      "description": "Joints radiateur et supports.",
+      "image": ""
+    },
+    {
+      "slug": "kit-refroidissement",
+      "name": "Kit refroidissement",
+      "description": "Kits durites + thermostat + pompe.",
+      "image": ""
+    },
+    {
+      "slug": "liquide-refroidissement-moteur",
+      "name": "Liquide refroidissement",
+      "description": "Antigel prêt à l’emploi.",
+      "image": ""
+    }
+  ],
+  "systeme-injection": [
+    {
+      "slug": "injecteur",
+      "name": "Injecteur",
+      "description": "Injecteurs essence et diesel.",
+      "image": ""
+    },
+    {
+      "slug": "rampe-injection",
+      "name": "Rampe injection",
+      "description": "Rampes common rail.",
+      "image": ""
+    },
+    {
+      "slug": "regulateur-pression",
+      "name": "Régulateur pression",
+      "description": "Régulateurs pression rail.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-injection",
+      "name": "Pompe injection",
+      "description": "Pompes HP diesel.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-basse-pression",
+      "name": "Pompe basse pression",
+      "description": "Pompes alimentation carburant.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-gasoil-injection",
+      "name": "Filtre gasoil injection",
+      "description": "Filtres diesel injection.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-rampe",
+      "name": "Capteur rampe",
+      "description": "Capteurs pression rail.",
+      "image": ""
+    },
+    {
+      "slug": "electrovanne-injecteur",
+      "name": "Électrovanne injecteur",
+      "description": "Électrovannes injecteurs.",
+      "image": ""
+    },
+    {
+      "slug": "joint-injecteur",
+      "name": "Joint injecteur",
+      "description": "Joints et bagues injecteurs.",
+      "image": ""
+    },
+    {
+      "slug": "tuyau-injection",
+      "name": "Tuyau injection",
+      "description": "Durites haute pression.",
+      "image": ""
+    },
+    {
+      "slug": "calculateur-injection",
+      "name": "Calculateur injection",
+      "description": "ECU injection.",
+      "image": ""
+    },
+    {
+      "slug": "debitmetre",
+      "name": "Débitmètre",
+      "description": "Débitmètres air admission.",
+      "image": ""
+    },
+    {
+      "slug": "papillon-injection",
+      "name": "Papillon injection",
+      "description": "Corps papillon électronique.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-lambda-injection",
+      "name": "Sonde lambda",
+      "description": "Sondes lambda injection.",
+      "image": ""
+    },
+    {
+      "slug": "retour-carburant",
+      "name": "Retour carburant",
+      "description": "Durites retour rampe.",
+      "image": ""
+    },
+    {
+      "slug": "injecteur-essence",
+      "name": "Injecteur essence",
+      "description": "Injecteurs multipoint et direct.",
+      "image": ""
+    },
+    {
+      "slug": "injecteur-diesel",
+      "name": "Injecteur diesel",
+      "description": "Injecteurs common rail.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-injection",
+      "name": "Kit joints injection",
+      "description": "Kits joints rampe et injecteurs.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-injecteur",
+      "name": "Nettoyant injecteur",
+      "description": "Additifs nettoyage injecteurs.",
+      "image": ""
+    },
+    {
+      "slug": "support-injecteur",
+      "name": "Support injecteur",
+      "description": "Supports et rails injecteurs.",
+      "image": ""
+    }
+  ],
+  "systeme-alimentation": [
+    {
+      "slug": "pompe-carburant",
+      "name": "Pompe à carburant",
+      "description": "Pompes électriques réservoir.",
+      "image": ""
+    },
+    {
+      "slug": "reservoir-carburant",
+      "name": "Réservoir carburant",
+      "description": "Réservoirs et bouchons.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-carburant-alim",
+      "name": "Filtre carburant",
+      "description": "Filtres alimentation carburant.",
+      "image": ""
+    },
+    {
+      "slug": "durite-carburant",
+      "name": "Durite carburant",
+      "description": "Durites alimentation et retour.",
+      "image": ""
+    },
+    {
+      "slug": "injecteur-alimentation",
+      "name": "Injecteur alimentation",
+      "description": "Injecteurs rampe carburant.",
+      "image": ""
+    },
+    {
+      "slug": "regulateur-pression-carburant",
+      "name": "Régulateur pression carburant",
+      "description": "Régulateurs basse pression.",
+      "image": ""
+    },
+    {
+      "slug": "flotteur-jauge",
+      "name": "Flotteur jauge",
+      "description": "Flotteurs jauge carburant.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-reservoir",
+      "name": "Bouchon réservoir",
+      "description": "Bouchons trappe réservoir.",
+      "image": ""
+    },
+    {
+      "slug": "canister",
+      "name": "Canister",
+      "description": "Charbon actif et canister.",
+      "image": ""
+    },
+    {
+      "slug": "electrovanne-canister",
+      "name": "Électrovanne canister",
+      "description": "Électrovannes purge canister.",
+      "image": ""
+    },
+    {
+      "slug": "pompe-amorce",
+      "name": "Pompe amorçage",
+      "description": "Pompes amorçage diesel.",
+      "image": ""
+    },
+    {
+      "slug": "prechauffeur-gasoil",
+      "name": "Préchauffeur gasoil",
+      "description": "Bougies préchauffage alimentation.",
+      "image": ""
+    },
+    {
+      "slug": "raccord-rapide-carburant",
+      "name": "Raccord rapide carburant",
+      "description": "Raccords durites carburant.",
+      "image": ""
+    },
+    {
+      "slug": "support-pompe-carburant",
+      "name": "Support pompe carburant",
+      "description": "Supports pompe réservoir.",
+      "image": ""
+    },
+    {
+      "slug": "crepine-reservoir",
+      "name": "Crépine réservoir",
+      "description": "Crépines pompe carburant.",
+      "image": ""
+    },
+    {
+      "slug": "tuyau-ventilation-reservoir",
+      "name": "Tuyau ventilation réservoir",
+      "description": "Durites ventilation réservoir.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-carburant",
+      "name": "Capteur carburant",
+      "description": "Capteurs niveau et température.",
+      "image": ""
+    },
+    {
+      "slug": "module-pompe-reservoir",
+      "name": "Module pompe réservoir",
+      "description": "Modules pompe + jauge.",
+      "image": ""
+    },
+    {
+      "slug": "joint-reservoir",
+      "name": "Joint réservoir",
+      "description": "Joints trappe et bouchon.",
+      "image": ""
+    },
+    {
+      "slug": "kit-alimentation",
+      "name": "Kit alimentation",
+      "description": "Kits pompe + filtre + durites.",
+      "image": ""
+    }
+  ],
+  "echappement": [
+    {
+      "slug": "ligne-echappement",
+      "name": "Ligne échappement",
+      "description": "Lignes complètes échappement.",
+      "image": ""
+    },
+    {
+      "slug": "silencieux",
+      "name": "Silencieux",
+      "description": "Silencieux avant, inter et arrière.",
+      "image": ""
+    },
+    {
+      "slug": "catalyseur",
+      "name": "Catalyseur",
+      "description": "Catalyseurs et FAP.",
+      "image": ""
+    },
+    {
+      "slug": "collecteur-echap",
+      "name": "Collecteur échappement",
+      "description": "Collecteurs échappement.",
+      "image": ""
+    },
+    {
+      "slug": "tube-echappement",
+      "name": "Tube échappement",
+      "description": "Tubes intermédiaires.",
+      "image": ""
+    },
+    {
+      "slug": "joint-echappement",
+      "name": "Joint échappement",
+      "description": "Joints colliers et brides.",
+      "image": ""
+    },
+    {
+      "slug": "support-echappement",
+      "name": "Support échappement",
+      "description": "Silent-blocs ligne échappement.",
+      "image": ""
+    },
+    {
+      "slug": "sonde-lambda-echap",
+      "name": "Sonde lambda échappement",
+      "description": "Sondes lambda montées échap.",
+      "image": ""
+    },
+    {
+      "slug": "clapet-echappement",
+      "name": "Clapet échappement",
+      "description": "Clapets et vannes échappement.",
+      "image": ""
+    },
+    {
+      "slug": "decatalyseur",
+      "name": "Décatalyseur",
+      "description": "Recharges catalyseur.",
+      "image": ""
+    },
+    {
+      "slug": "sortie-sport",
+      "name": "Sortie sport",
+      "description": "Sorties et embouts sport.",
+      "image": ""
+    },
+    {
+      "slug": "colliers-echappement",
+      "name": "Colliers échappement",
+      "description": "Colliers et brides fixation.",
+      "image": ""
+    },
+    {
+      "slug": "fap-dpf",
+      "name": "FAP / DPF",
+      "description": "Filtres à particules.",
+      "image": ""
+    },
+    {
+      "slug": "vanne-egr-echap",
+      "name": "Vanne EGR",
+      "description": "Vannes EGR échappement.",
+      "image": ""
+    },
+    {
+      "slug": "turbo-echappement",
+      "name": "Turbo échappement",
+      "description": "Turbos et cartouche turbo.",
+      "image": ""
+    },
+    {
+      "slug": "downpipe",
+      "name": "Downpipe",
+      "description": "Tubes descente turbo.",
+      "image": ""
+    },
+    {
+      "slug": "intermediaire-echap",
+      "name": "Intermédiaire échap",
+      "description": "Silencieux intermédiaires.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pression-echap",
+      "name": "Capteur pression échap",
+      "description": "Capteurs pression échappement.",
+      "image": ""
+    },
+    {
+      "slug": "cache-thermique",
+      "name": "Cache thermique",
+      "description": "Protections thermiques échap.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-echap",
+      "name": "Kit joints échap",
+      "description": "Kits joints ligne complète.",
+      "image": ""
+    }
+  ],
+  "lubrification": [
+    {
+      "slug": "pompe-huile-lub",
+      "name": "Pompe à huile",
+      "description": "Pompes à huile moteur.",
+      "image": ""
+    },
+    {
+      "slug": "carter-huile-lub",
+      "name": "Carter huile",
+      "description": "Carters inférieurs.",
+      "image": ""
+    },
+    {
+      "slug": "durite-huile",
+      "name": "Durite huile",
+      "description": "Durites lubrification.",
+      "image": ""
+    },
+    {
+      "slug": "filtre-huile-lub",
+      "name": "Filtre à huile",
+      "description": "Filtres huile moteur.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-vidange",
+      "name": "Bouchon vidange",
+      "description": "Bouchons carter vidange.",
+      "image": ""
+    },
+    {
+      "slug": "joint-vidange",
+      "name": "Joint vidange",
+      "description": "Joints bouchon vidange.",
+      "image": ""
+    },
+    {
+      "slug": "crepine-pompe-huile",
+      "name": "Crépine pompe huile",
+      "description": "Crépines aspiration huile.",
+      "image": ""
+    },
+    {
+      "slug": "capteur-pression-huile-lub",
+      "name": "Capteur pression huile",
+      "description": "Capteurs pression huile.",
+      "image": ""
+    },
+    {
+      "slug": "radiateur-huile-lub",
+      "name": "Radiateur huile",
+      "description": "Refroidisseurs huile.",
+      "image": ""
+    },
+    {
+      "slug": "tuyau-huile",
+      "name": "Tuyau huile",
+      "description": "Tuyauteries huile turbo.",
+      "image": ""
+    },
+    {
+      "slug": "support-filtre-huile",
+      "name": "Support filtre huile",
+      "description": "Supports filtre à huile.",
+      "image": ""
+    },
+    {
+      "slug": "ventilation-carter",
+      "name": "Ventilation carter",
+      "description": "Systèmes PCV et ventilation.",
+      "image": ""
+    },
+    {
+      "slug": "separateur-huile",
+      "name": "Séparateur huile",
+      "description": "Séparateurs air/huile.",
+      "image": ""
+    },
+    {
+      "slug": "jauge-huile",
+      "name": "Jauge huile",
+      "description": "Jauges niveau huile.",
+      "image": ""
+    },
+    {
+      "slug": "guide-jauge",
+      "name": "Guide jauge",
+      "description": "Guides jauge huile.",
+      "image": ""
+    },
+    {
+      "slug": "bouchon-remplissage-huile",
+      "name": "Bouchon remplissage huile",
+      "description": "Bouchons remplissage huile.",
+      "image": ""
+    },
+    {
+      "slug": "poulie-pompe-huile",
+      "name": "Poulie pompe huile",
+      "description": "Poulies entraînement pompe huile.",
+      "image": ""
+    },
+    {
+      "slug": "kit-joints-carter",
+      "name": "Kit joints carter",
+      "description": "Joints carter huile.",
+      "image": ""
+    },
+    {
+      "slug": "additif-lubrification",
+      "name": "Additif lubrification",
+      "description": "Additifs anti-usure huile.",
+      "image": ""
+    },
+    {
+      "slug": "huile-moteur-lub",
+      "name": "Huile moteur",
+      "description": "Huiles moteur toutes viscosités.",
+      "image": ""
+    }
+  ],
+  "pneus-produits": [
+    {
+      "slug": "pneu-ete",
+      "name": "Pneu été",
+      "description": "Pneus été toutes dimensions.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-hiver",
+      "name": "Pneu hiver",
+      "description": "Pneus hiver cloutés et non cloutés.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-4-saisons",
+      "name": "Pneu 4 saisons",
+      "description": "Pneus toutes saisons.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-utilitaire",
+      "name": "Pneu utilitaire",
+      "description": "Pneus utilitaires renforcés.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-suv",
+      "name": "Pneu SUV",
+      "description": "Pneus SUV et 4x4.",
+      "image": ""
+    },
+    {
+      "slug": "chambre-air",
+      "name": "Chambre à air",
+      "description": "Chambres à air véhicules légers.",
+      "image": ""
+    },
+    {
+      "slug": "valve-pneu",
+      "name": "Valve pneu",
+      "description": "Valves TPMS et standard.",
+      "image": ""
+    },
+    {
+      "slug": "ecrou-roue-pneu",
+      "name": "Écrou roue",
+      "description": "Écrous et boulons roue.",
+      "image": ""
+    },
+    {
+      "slug": "enjoliveur",
+      "name": "Enjoliveur",
+      "description": "Enjoliveurs et caches moyeux.",
+      "image": ""
+    },
+    {
+      "slug": "reparation-pneu",
+      "name": "Réparation pneu",
+      "description": "Kits réparation et mèches.",
+      "image": ""
+    },
+    {
+      "slug": "compresseur-portable",
+      "name": "Compresseur portable",
+      "description": "Compresseurs gonflage.",
+      "image": ""
+    },
+    {
+      "slug": "manometre-pneu",
+      "name": "Manomètre pneu",
+      "description": "Manomètres et contrôleurs pression.",
+      "image": ""
+    },
+    {
+      "slug": "equilibrage-accessoires",
+      "name": "Accessoires équilibrage",
+      "description": "Poids équilibrage et accessoires.",
+      "image": ""
+    },
+    {
+      "slug": "spray-antcrevaison",
+      "name": "Spray anti-crevaison",
+      "description": "Sprays réparation temporaire.",
+      "image": ""
+    },
+    {
+      "slug": "nettoyant-jante-pneu",
+      "name": "Nettoyant jante pneu",
+      "description": "Produits entretien pneus.",
+      "image": ""
+    },
+    {
+      "slug": "cric-pneu",
+      "name": "Cric pneu",
+      "description": "Crics et outils changement roue.",
+      "image": ""
+    },
+    {
+      "slug": "chaine-neige",
+      "name": "Chaîne neige",
+      "description": "Chaînes et chaussettes neige.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-runflat",
+      "name": "Pneu runflat",
+      "description": "Pneus runflat.",
+      "image": ""
+    },
+    {
+      "slug": "pneu-performance",
+      "name": "Pneu performance",
+      "description": "Pneus sport et UHP.",
+      "image": ""
+    },
+    {
+      "slug": "kit-roue-secours",
+      "name": "Kit roue secours",
+      "description": "Roues secours et kits.",
+      "image": ""
+    }
+  ],
+  "signalisation": [
+    {
+      "slug": "gyrophare",
+      "name": "Gyrophare",
+      "description": "Gyrophares véhicules professionnels.",
+      "image": ""
+    },
+    {
+      "slug": "klaxon",
+      "name": "Klaxon",
+      "description": "Klaxons et avertisseurs sonores.",
+      "image": ""
+    },
+    {
+      "slug": "feu-detresse",
+      "name": "Feu détresse",
+      "description": "Feux orange détresse.",
+      "image": ""
+    },
+    {
+      "slug": "feu-recul-signal",
+      "name": "Feu recul signalisation",
+      "description": "Feux recul signalisation.",
+      "image": ""
+    },
+    {
+      "slug": "feu-travaux",
+      "name": "Feu travaux",
+      "description": "Feux travaux et balisage.",
+      "image": ""
+    },
+    {
+      "slug": "triangle-signal",
+      "name": "Triangle signalisation",
+      "description": "Triangles présignalisation.",
+      "image": ""
+    },
+    {
+      "slug": "gilet-reflechissant",
+      "name": "Gilet réfléchissant",
+      "description": "Gilets haute visibilité.",
+      "image": ""
+    },
+    {
+      "slug": "feu-position-signal",
+      "name": "Feu position",
+      "description": "Feux position signalisation.",
+      "image": ""
+    },
+    {
+      "slug": "feu-stop-signal",
+      "name": "Feu stop signalisation",
+      "description": "Feux stop additionnels.",
+      "image": ""
+    },
+    {
+      "slug": "feu-clignotant-signal",
+      "name": "Feu clignotant",
+      "description": "Clignotants signalisation.",
+      "image": ""
+    },
+    {
+      "slug": "support-gyrophare",
+      "name": "Support gyrophare",
+      "description": "Supports fixation gyrophare.",
+      "image": ""
+    },
+    {
+      "slug": "cablage-signalisation",
+      "name": "Câblage signalisation",
+      "description": "Faisceaux feux signalisation.",
+      "image": ""
+    },
+    {
+      "slug": "relais-clignotant",
+      "name": "Relais clignotant",
+      "description": "Relais feux clignotants.",
+      "image": ""
+    },
+    {
+      "slug": "interrupteur-detresse",
+      "name": "Interrupteur détresse",
+      "description": "Boutons warning.",
+      "image": ""
+    },
+    {
+      "slug": "feu-plaque-signal",
+      "name": "Feu plaque signalisation",
+      "description": "Éclairages plaque signalisation.",
+      "image": ""
+    },
+    {
+      "slug": "projecteur-signal",
+      "name": "Projecteur signalisation",
+      "description": "Projecteurs balisage.",
+      "image": ""
+    },
+    {
+      "slug": "balise-lumineuse",
+      "name": "Balise lumineuse",
+      "description": "Balises LED route.",
+      "image": ""
+    },
+    {
+      "slug": "avertisseur-marche-arriere",
+      "name": "Avertisseur marche arrière",
+      "description": "Alarmes recul.",
+      "image": ""
+    },
+    {
+      "slug": "feu-lateraux",
+      "name": "Feux latéraux",
+      "description": "Feux gabarit latéraux.",
+      "image": ""
+    },
+    {
+      "slug": "kit-signalisation",
+      "name": "Kit signalisation",
+      "description": "Kits signalisation complète.",
+      "image": ""
+    }
+  ]
+}

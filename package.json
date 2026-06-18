@@ -1,0 +1,30 @@
+{
+  "name": "autopiecesfes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "npm run dev --prefix server",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ports": "node scripts/detect-ports.mjs",
+    "ngrok:config": "node scripts/generate-ngrok-config.mjs",
+    "start": "powershell -ExecutionPolicy Bypass -File scripts/start-dev.ps1",
+    "share": "powershell -ExecutionPolicy Bypass -File scripts/start-ngrok.ps1",
+    "seo:sitemap": "node scripts/generate-sitemap.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "sweetalert2": "^11.26.25"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@vitejs/plugin-react": "^4.5.2",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
+  }
+}
