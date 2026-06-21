@@ -1,0 +1,53 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Load environment variables from .env file (Hostinger / local).
+ */
+function loadEnv(string $path): void
+{
+    if (!is_readable($path)) {
+        return;
+    }
+
+    $lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($lines === false) {
+        return;
+    }
+
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if ($line === '' || str_starts_with($line, '#')) {
+            continue;
+        }
+
+        $pos = strpos($line, '=');
+        if ($pos === false) {
+            continue;
+        }
+
+        $key = trim(substr($line, 0, $pos));
+        $value = trim(substr($line, $pos + 1));
+        $value = trim($value, "\"'");
+
+        if ($key !== '' && getenv($key) === false) {
+            putenv("{$key}={$value}");
+            $_ENV[$key] = $value;
+        }
+    }
+}
+
+function env(string $key, ?string $default = null): ?string
+{
+    $value = getenv($key);
+    if ($value === false) {
+        return $default;
+    }
+
+    return $value;
+}
+
+loadEnv(__DIR__ . '/.env');
+loadEnv(__DIR__ . '/../.env.local');
+loadEnv(__DIR__ . '/../.env');

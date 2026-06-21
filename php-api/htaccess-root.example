@@ -1,0 +1,8 @@
+# Copy this file to public_html/.htaccess (or merge with existing rules)
+# Routes /api/* to the php-api folder for Hostinger shared hosting.
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ php-api/$1 [L,QSA]

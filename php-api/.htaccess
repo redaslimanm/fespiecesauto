@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Auth
+RewriteRule ^auth/login/?$ auth/login.php [L,QSA]
+RewriteRule ^auth/register/?$ auth/register.php [L,QSA]
+
+# Products
+RewriteRule ^products/?$ products.php [L,QSA]
+RewriteRule ^products/([^/]+)/?$ product.php?slug=$1 [L,QSA]
+
+# Subcategory image (GET — legacy path)
+RewriteRule ^subcategories/([^/]+)/([^/]+)/image/?$ subcategory-image.php?categorySlug=$1&subSlug=$2 [L,QSA]
+
+# Categories with nested subcategories
+RewriteRule ^categories/([^/]+)/subcategories/([^/]+)/image/?$ subcategory-image.php?slug=$1&subSlug=$2 [L,QSA]
+RewriteRule ^categories/([^/]+)/subcategories/([^/]+)/?$ subcategory.php?slug=$1&subSlug=$2 [L,QSA]
+RewriteRule ^categories/([^/]+)/subcategories/?$ subcategories.php?slug=$1 [L,QSA]
+RewriteRule ^categories/([^/]+)/?$ category.php?slug=$1 [L,QSA]
+RewriteRule ^categories/?$ categories.php [L,QSA]
+
+# Upload
+RewriteRule ^upload/?$ upload.php [L,QSA]
