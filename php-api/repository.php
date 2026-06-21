@@ -17,7 +17,8 @@ function parseJson(mixed $value, array $fallback = []): array
 
 function subcategoryImageApiPath(string $categorySlug, string $slug): string
 {
-    return "/api/subcategories/{$categorySlug}/{$slug}/image";
+    $params = http_build_query(['categorySlug' => $categorySlug, 'subSlug' => $slug]);
+    return "/api/subcategory-image.php?{$params}";
 }
 
 function mapSubcategoryImage(array $row): string
@@ -317,7 +318,7 @@ function updateSubcategory(string $categorySlug, string $slug, array $fields): ?
         ];
     }
 
-    if (str_starts_with($nextImage, '/api/subcategories/')) {
+    if (str_starts_with($nextImage, '/api/subcategories/') || str_starts_with($nextImage, '/api/subcategory-image.php')) {
         $update = $pdo->prepare(
             'UPDATE subcategories SET name = ?, description = ? WHERE category_slug = ? AND slug = ?'
         );

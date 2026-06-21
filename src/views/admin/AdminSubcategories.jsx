@@ -8,7 +8,7 @@ import AdminModal from '../../components/admin/AdminModal'
 
 import ImageField from '../../components/admin/ImageField'
 
-import { resolveMediaUrl } from '../../utils/media'
+import { isApiSubcategoryImage, resolveMediaUrl } from '../../utils/media'
 
 import {
 
@@ -525,7 +525,7 @@ function SubcategoryFormModal({ mode, categories, editing, onClose, onSaved }) {
     try {
 
       const externalImage =
-        image && !image.startsWith('blob:') && !image.startsWith('/api/subcategories/')
+        image && !image.startsWith('blob:') && !isApiSubcategoryImage(image)
           ? image.trim()
           : ''
 
