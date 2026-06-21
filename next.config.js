@@ -6,6 +6,16 @@ const nextConfig = {
       bodySizeLimit: '5mb',
     },
   },
+  async rewrites() {
+    return {
+      fallback: [
+        {
+          source: '/:path*',
+          destination: '/index.html',
+        },
+      ],
+    }
+  },
 }
 
 export default nextConfig

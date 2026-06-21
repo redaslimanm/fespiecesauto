@@ -3,14 +3,12 @@ export function getApiBase() {
     return String(import.meta.env.VITE_API_URL).replace(/\/$/, '')
   }
 
-  // Dev (incl. ngrok): Vite proxies /api and /uploads to Express.
-  if (import.meta.env.DEV) {
-    return ''
+  if (import.meta.env.VITE_API_PORT && typeof window !== 'undefined') {
+    return `${window.location.protocol}//${window.location.hostname}:${import.meta.env.VITE_API_PORT}`
   }
 
-  return `${window.location.protocol}//${window.location.hostname}:${
-    import.meta.env.VITE_API_PORT || 4000
-  }`
+  // Relative URLs — Vite dev proxy, Vercel, or nginx same-origin /api
+  return ''
 }
 
 /** URLs d'upload API : localhost ne marche pas sur mobile WiFi. */

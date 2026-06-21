@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 .next
+public/index.html
+public/assets
 *.local
 server/.env
 ngrok.yml
